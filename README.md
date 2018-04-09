@@ -1,7 +1,7 @@
 # PythonProject2018
-
+https://github.com/eamonnofarrell/PythonProject2018/blob/master/iris_versicolor.png
 <h1 align="left">
-  <img src="banner-galwaycampus_6.jpg" alt="GMIT Logo" />
+  <img src="iris_versicolor.png" alt="GMIT Logo" />
 </h1>
 <h1 align="center">
   <img src="banner-galwaycampus_6.jpg" alt="GMIT Logo" />
