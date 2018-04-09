@@ -1,9 +1,8 @@
 # PythonProject2018
 <p align="center">
   
-
   <img src="iris_versicolor.png" alt="Iris Versicolor" width="200" height="200" />
-
+  
   <img  src="Iris_virginica.jpg" alt="Iris Virginica" width="200" height="200" />
 
   <img  src="Iris_setosa.jpg" alt="Iris Setosa" width="200" height="200" />
