@@ -35,7 +35,7 @@ Iris Virginica &nbsp;&nbsp;&nbsp;&nbsp;  &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&n
 
 ## Calculate
 - Using Numpy, I calculated mean value of first three columns as an exercise. Python file [MeanofCols.py](./MeanofCols.py)
-'''
+```
 import pandas as pd
 import numpy as np
 
@@ -55,5 +55,5 @@ print ("Mean value of second col is:", meansecondcol)
 
 meanthirdcol = np.mean(data[:,2])
 print ("Mean value of third col is:", meanthirdcol)
-'''
+```
 
