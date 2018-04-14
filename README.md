@@ -4,7 +4,7 @@
 ##  Table of Contents
 
 - [Introduction](#introduction)
-- [Week1](#week1)
+- [Mean of Columns](#calculate mean)
 - [Week2](#week2)
 - [Week3](#week3)
 - [Week4](#week4)
@@ -30,8 +30,9 @@ Iris Virginica &nbsp;&nbsp;&nbsp;&nbsp;  &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&n
   <img  src="Iris_setosa.jpg" alt="Iris Setosa" width="200" height="200"  />
   
   </p>
+  
+  
 
-## Week1 
-- The information relating to the exercise for week 1 is contained in file [Week1&Week2.txt](./Week1&Week2.txt)
-- The objective of the exercise is to calculate the nth Fibonacci number where n the sum of the first and last letters of your first name as numbers. 
+## calculate mean
+- Using Numpy, I calculated mean value of first three columns as an exercise. Python file [MeanofCols.py]
 
