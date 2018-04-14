@@ -2,11 +2,11 @@
 
 <FIGURE>
 
-  <img src="iris_versicolor.png" alt="Iris Versicolor" width="200" height="200"  >
+  <left><img src="iris_versicolor.png" alt="Iris Versicolor" width="200" height="200"  >
      <FIGCAPTION>Iris Versicolor</FIGCAPTION>
-  <img  src="Iris_virginica.jpg" alt="Iris Virginica" width="200" height="200"  >
+  <left<img  src="Iris_virginica.jpg" alt="Iris Virginica" width="200" height="200"  >
     <FIGCAPTION>Iris Virginica</FIGCAPTION>
-  <img  src="Iris_setosa.jpg" alt="Iris Setosa" width="200" height="200"  >
+  <left<img  src="Iris_setosa.jpg" alt="Iris Setosa" width="200" height="200"  >
     <FIGCAPTION>Iris Setosa</FIGCAPTION>
 </FIGURE>
 
