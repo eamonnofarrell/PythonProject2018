@@ -1,7 +1,6 @@
 # Python Project 2018
-<button class="ui-btn ui-btn-inline">Iris Versicolor </button>
 
-<h3>Iris Versicolor    Iris Virginica    Iris Setosa</h3>
+<h3>Iris Versicolor &nbsp;&nbsp;&nbsp;&nbsp;   Iris Virginica  &nbsp;&nbsp;&nbsp;&nbsp;  Iris Setosa</h3>
 
 <p align="center">
     
