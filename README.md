@@ -1,5 +1,6 @@
 # Python Project 2018
-<h3 align="center">Iris Versicolor &nbsp;&nbsp;&nbsp;&nbsp;   Iris Virginica  &nbsp;&nbsp;&nbsp;&nbsp;  Iris Setosa</h3>
+<h3 align="center">Iris Versicolor &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;  &nbsp;&nbsp;&nbsp;&nbsp; 
+Iris Virginica &nbsp;&nbsp;&nbsp;&nbsp;  &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;  Iris Setosa</h3>
 
 <p align="center">
     
