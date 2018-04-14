@@ -1,5 +1,9 @@
 # Python Project 2018
 
+![Screenshot](iris_versicolor.png)
+![Screenshot](Iris_virginica.jpg)
+![Screenshot](Iris_setosa.jpg)
+
 <FIGURE>
 
   <left><img src="iris_versicolor.png" alt="Iris Versicolor" width="200" height="200"  >
