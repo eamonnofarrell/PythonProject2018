@@ -1,4 +1,4 @@
-# PythonProject2018
+# Python Project 2018
 <p align="center">
     
   <img src="iris_versicolor.png" alt="Iris Versicolor" width="200" height="200" />
