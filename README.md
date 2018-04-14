@@ -4,7 +4,7 @@
 ##  Table of Contents
 
 - [Introduction](#introduction)
-- [Calculate](#Calculate mean)
+- [Calculate](#calculate)
 - [Week2](#week2)
 - [Week3](#week3)
 - [Week4](#week4)
