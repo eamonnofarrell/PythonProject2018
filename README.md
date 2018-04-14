@@ -1,4 +1,5 @@
 # Python Project 2018
+<button class="ui-btn ui-btn-inline">Iris Versicolor </button>
 
 <h3>Iris Versicolor    Iris Virginica    Iris Setosa</h3>
 
