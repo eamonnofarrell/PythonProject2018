@@ -34,5 +34,5 @@ Iris Virginica &nbsp;&nbsp;&nbsp;&nbsp;  &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&n
   
 
 ## Calculate
-- Using Numpy, I calculated mean value of first three columns as an exercise. Python file (MeanofCols.py)
+- Using Numpy, I calculated mean value of first three columns as an exercise. Python file [MeanofCols.py](./MeanofCols.py)
 
