@@ -4,7 +4,7 @@
 ##  Table of Contents
 
 - [Introduction](#introduction)
-- [Mean of Columns](#calculate mean)
+- [Calculate mean](#calculate mean of columns)
 - [Week2](#week2)
 - [Week3](#week3)
 - [Week4](#week4)
@@ -33,6 +33,6 @@ Iris Virginica &nbsp;&nbsp;&nbsp;&nbsp;  &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&n
   
   
 
-## calculate mean
+## Calculate mean
 - Using Numpy, I calculated mean value of first three columns as an exercise. Python file [MeanofCols.py]
 
