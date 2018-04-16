@@ -4,7 +4,7 @@
 ##  Table of Contents
 
 - [Introduction](#introduction)
-- [The Data Set](#data analysis process)
+- [Data Analysis Process](#data analysis process)
 - [Calculate Mean Values](#calculate)
 - [Week2](#week2)
 - [Week3](#week3)
