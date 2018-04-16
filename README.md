@@ -34,7 +34,7 @@ Iris Virginica &nbsp;&nbsp;&nbsp;&nbsp;  &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&n
   
   
 ## Data
-The data set contains 150 observations of iris flowers. There are four columns of measurements of the flowers in centimeters. The fifth column is the species of the flower observed. All observed flowers belong to one of three species.
+The data set contains 150 observations of iris flowers. There are four columns of measurements of the flowers in centimeters. The fifth column is the species of the flower observed. All observed flowers belong to one of three species. [Iris.csv](./iris.csv)
 
 ## Calculate
 - Using Numpy, I calculated mean value of first three columns as an exercise. Python file [MeanofCols.py](./MeanofCols.py)
