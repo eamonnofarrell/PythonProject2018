@@ -34,8 +34,16 @@ Iris Virginica &nbsp;&nbsp;&nbsp;&nbsp;  &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&n
   
   
 ## Data_Analysis_Process
-* Load data file 
+* Perform initial analysis
+    * Sepal length Mean, Range, Minimum and Maximum values
+    * Sepal width Mean, Range, Minimum and Maximum values
+    * Petal length Mean, Range, Minimum and Maximum values
+    * Petal widgth Mean, Range, Minimum and Maximum values
+    
 * Exploration of Data
+    * Imort Pandas and Numpy from Python Data Analysis Library
+    * Use Scatter 
+    
 * Analysis
 The data set contains 150 observations of iris flowers. There are four columns of measurements of the flowers in centimeters. The fifth column is the species of the flower observed. All observed flowers belong to one of three species. [Iris.csv](./iris.csv)
 
