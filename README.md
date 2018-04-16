@@ -5,7 +5,7 @@
 
 - [Introduction](#introduction)
 - [Data Analysis Process](#data_analysis_process)
-- [Calculate Mean Values](#calculate_values)
+- [Calculate Values](#calculate_values)
 - [Week2](#week2)
 - [Week3](#week3)
 - [Week4](#week4)
