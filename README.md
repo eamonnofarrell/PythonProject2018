@@ -6,11 +6,7 @@
 - [Introduction](#introduction)
 - [Data Analysis Process](#data_analysis_process)
 - [Calculate Values](#calculate_values)
-- [Week2](#week2)
-- [Week3](#week3)
-- [Week4](#week4)
-- [Week5](#week5)
-- [Week6](#week6)
+- [Exploration of Data](#exploration_of_data)
 
 ---
 
@@ -72,3 +68,4 @@ meanthirdcol = np.mean(data[:,2])
 print ("Mean value of third col is:", meanthirdcol)
 ```
 
+## Exploration_of_Data
