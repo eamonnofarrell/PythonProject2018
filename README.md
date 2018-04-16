@@ -4,7 +4,7 @@
 ##  Table of Contents
 
 - [Introduction](#introduction)
-- [Data Analysis Process](#data analysis process)
+- [Data Analysis Process](#data_analysis_process)
 - [Calculate Mean Values](#calculate)
 - [Week2](#week2)
 - [Week3](#week3)
@@ -33,7 +33,7 @@ Iris Virginica &nbsp;&nbsp;&nbsp;&nbsp;  &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&n
   </p>
   
   
-## Data Analysis Process
+## Data_Analysis_Process
 The data set contains 150 observations of iris flowers. There are four columns of measurements of the flowers in centimeters. The fifth column is the species of the flower observed. All observed flowers belong to one of three species. [Iris.csv](./iris.csv)
 
 
