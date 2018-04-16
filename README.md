@@ -5,7 +5,7 @@
 
 - [Introduction](#introduction)
 - [Data Analysis Process](#data_analysis_process)
-- [Calculate Mean Values](#calculate_mean_values)
+- [Calculate Mean Values](#calculate_values)
 - [Week2](#week2)
 - [Week3](#week3)
 - [Week4](#week4)
@@ -48,7 +48,7 @@ Iris Virginica &nbsp;&nbsp;&nbsp;&nbsp;  &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&n
     * Compare groups of data
     * Explore relationship between variables
  
-## Calculate_Mean_Values
+## Calculate_Values
 - Using Numpy, I calculated mean value of first three columns as an exercise. Python file [MeanofCols.py](./MeanofCols.py)
 ```
 import pandas as pd
