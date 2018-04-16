@@ -37,7 +37,7 @@ Iris Virginica &nbsp;&nbsp;&nbsp;&nbsp;  &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&n
     * Petal widgth Mean, Range, Minimum and Maximum values
     
 * Exploration of Data
-    * Imort Pandas and Numpy from Python Data Analysis Library
+    * Import Pandas and Numpy from Python Data Analysis Library
     * Use Scatter Plot, Whisker Plot and Histogram graphs to represent Iris data
     
 * Analysis
