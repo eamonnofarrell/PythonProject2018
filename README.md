@@ -54,6 +54,12 @@ print("Mean Sepal Width: "),(round(dataset['sepal-width'].mean()))
 print("Mean Petal Length: "),(round(dataset['petal-length'].mean()))
 print("Mean Petal Width: "),(round(dataset['petal-width'].mean()))
  ```   
+ 
+ <p align="center">
+    
+  <img  src="MaxMinMean.jpg" alt="MaxMinMean" width="200" height="200"  />
+  
+  </p>
 * Exploration of Data
         * Use Scatter Plot, Whisker Plot and Histogram graphs to represent Iris data
     
