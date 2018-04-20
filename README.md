@@ -8,7 +8,7 @@
 - [Place holder]
 - [Exploration of Data](#exploration_of_data)
 -
-- [Initial Coding Attempt](#calculate_values)
+- [Initial Coding Attempt](#initial_coding_attempt)
 
 ---
 
