@@ -32,10 +32,9 @@ Iris Virginica &nbsp;&nbsp;&nbsp;&nbsp;  &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&n
 ## Data_Analysis_Process
 * Perform initial analysis
     * Import Pandas and Numpy from Python Data Analysis Library
-    * Sepal length Mean, Range, Minimum and Maximum values
-    * Sepal width Mean, Range, Minimum and Maximum values
-    * Petal length Mean, Range, Minimum and Maximum values
-    * Petal widgth Mean, Range, Minimum and Maximum values
+    * Calculate and print Mean, Range, Minimum and Maximum values. The initial calculations were done using straightforward python code. dataset['sepal-length'].max. This returns a minimum single value for column Sepal Length.
+    
+     
  
  ```
   # max column value using Pandas max() method
