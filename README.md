@@ -31,8 +31,8 @@ Iris Virginica &nbsp;&nbsp;&nbsp;&nbsp;  &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&n
   
 ## Data_Analysis_Process
 * Perform initial analysis
-    * Import Pandas and Numpy from Python Data Analysis Library
-    * Pandas is an open source, BSD-licensed library providing high-performance, easy-to-use data structures and data analysis tools for the [Python](https://www.python.org/)programming language.
+    * Import [Pandas](https://pandas.pydata.org/)and Numpy from Python Data Analysis Library
+    * Pandas is an open source, BSD-licensed library providing high-performance, easy-to-use data structures and data analysis tools for the [Python](https://www.python.org/) programming language.
     * Calculate and print Mean, Range, Minimum and Maximum values. The initial calculations were done using straightforward python code. dataset['sepal-length'].max. This returns a minimum single value for column Sepal Length.
     
      
