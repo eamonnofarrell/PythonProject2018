@@ -5,8 +5,10 @@
 
 - [Introduction](#introduction)
 - [Data Analysis Process](#data_analysis_process)
-- [Calculate Values](#calculate_values)
+- [Place holder]
 - [Exploration of Data](#exploration_of_data)
+-
+- [Initial Coding Attempt](#calculate_values)
 
 ---
 
@@ -79,7 +81,7 @@ print("Mean Petal Width: "),(round(dataset['petal-width'].mean()))
     * Compare groups of data
     * Explore relationship between variables
  
-## Calculate_Values
+## Initial_Coding_Attempt
 - Using Numpy, I calculated mean value of first three columns as an exercise. Python file [MeanofCols.py](./MeanofCols.py)
 ```
 import pandas as pd
