@@ -31,14 +31,30 @@ Iris Virginica &nbsp;&nbsp;&nbsp;&nbsp;  &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&n
   
 ## Data_Analysis_Process
 * Perform initial analysis
+    * Import Pandas and Numpy from Python Data Analysis Library
     * Sepal length Mean, Range, Minimum and Maximum values
     * Sepal width Mean, Range, Minimum and Maximum values
     * Petal length Mean, Range, Minimum and Maximum values
     * Petal widgth Mean, Range, Minimum and Maximum values
     
+  # max column value using Pandas max() method
+print("Mamimum Sepal Length: "),(dataset['sepal-length'].max())
+print("Mamimum Sepal Width: "),(dataset['sepal-width'].max())
+print("Mamimum Petal Length: "),(dataset['petal-length'].max())
+print("Mamimum Petal Width: "),(dataset['petal-width'].max())
+# minimum column value using Pandas min() method
+print("Minimum Sepal Length: "),(dataset['sepal-length'].min())
+print("Minimum Sepal Width: "),(dataset['sepal-width'].min())
+print("Minimum Petal Length: "),(dataset['petal-length'].min())
+print("Minimum Petal Width: "),(dataset['petal-width'].min())
+# mean column value using Pandas mean() method
+print("Mean Sepal Length: "),(round(dataset['sepal-length'].mean()))
+print("Mean Sepal Width: "),(round(dataset['sepal-width'].mean()))
+print("Mean Petal Length: "),(round(dataset['petal-length'].mean()))
+print("Mean Petal Width: "),(round(dataset['petal-width'].mean()))
+    
 * Exploration of Data
-    * Import Pandas and Numpy from Python Data Analysis Library
-    * Use Scatter Plot, Whisker Plot and Histogram graphs to represent Iris data
+        * Use Scatter Plot, Whisker Plot and Histogram graphs to represent Iris data
     
 * Analysis
     * Compare groups of data
