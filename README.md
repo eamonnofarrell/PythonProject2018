@@ -54,7 +54,7 @@ print("Mean Sepal Width: "),(round(dataset['sepal-width'].mean()))
 print("Mean Petal Length: "),(round(dataset['petal-length'].mean()))
 print("Mean Petal Width: "),(round(dataset['petal-width'].mean()))
  ```   
- 
+ * Output ofMax Min nd Mean:
  <p align="center">
     
   <img  src="MaxMinMean.PNG" alt="MaxMinMean" width="200" height="200"  />
