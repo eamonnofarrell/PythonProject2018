@@ -82,7 +82,7 @@ print("Mean Petal Width: "),(round(dataset['petal-width'].mean()))
     * Explore relationship between variables
  
 ## Initial_Coding_Attempt
-- Using Numpy, I calculated mean value of first three columns as an exercise. Python file [MeanofCols.py](./MeanofCols.py)
+- Using Numpy, I calculated mean value of first three columns with np.mean(data). Python file [MeanofCols.py](./MeanofCols.py)
 ```
 data = pd.read_csv('iris.csv', header = None)
 print (data)
