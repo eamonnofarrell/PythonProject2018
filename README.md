@@ -36,7 +36,8 @@ Iris Virginica &nbsp;&nbsp;&nbsp;&nbsp;  &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&n
     * Sepal width Mean, Range, Minimum and Maximum values
     * Petal length Mean, Range, Minimum and Maximum values
     * Petal widgth Mean, Range, Minimum and Maximum values
-    
+ 
+ ```
   # max column value using Pandas max() method
 print("Mamimum Sepal Length: "),(dataset['sepal-length'].max())
 print("Mamimum Sepal Width: "),(dataset['sepal-width'].max())
@@ -52,7 +53,7 @@ print("Mean Sepal Length: "),(round(dataset['sepal-length'].mean()))
 print("Mean Sepal Width: "),(round(dataset['sepal-width'].mean()))
 print("Mean Petal Length: "),(round(dataset['petal-length'].mean()))
 print("Mean Petal Width: "),(round(dataset['petal-width'].mean()))
-    
+ ```   
 * Exploration of Data
         * Use Scatter Plot, Whisker Plot and Histogram graphs to represent Iris data
     
