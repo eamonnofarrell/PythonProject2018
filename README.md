@@ -64,7 +64,7 @@ print("Mean Petal Width: "),(round(dataset['petal-width'].mean()))
  
  <p align="center">
     
-  <img  src="Description.PNG" alt="MaxMinMean" width="200" height="200"  />
+  <img  src="Description.PNG" alt="MaxMinMean" width="300" height="300"  />
   
   </p>
   
