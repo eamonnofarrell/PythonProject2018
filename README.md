@@ -32,6 +32,7 @@ Iris Virginica &nbsp;&nbsp;&nbsp;&nbsp;  &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&n
 ## Data_Analysis_Process
 * Perform initial analysis
     * Import Pandas and Numpy from Python Data Analysis Library
+    * Pandas is an open source, BSD-licensed library providing high-performance, easy-to-use data structures and data analysis tools for the Python programming language.
     * Calculate and print Mean, Range, Minimum and Maximum values. The initial calculations were done using straightforward python code. dataset['sepal-length'].max. This returns a minimum single value for column Sepal Length.
     
      
@@ -60,8 +61,10 @@ print("Mean Petal Width: "),(round(dataset['petal-width'].mean()))
   
   </p>
   
- * I have also explored an alternative method for establishing Min Max and Mean values. print(dataset.describe(percentiles=[]))
- 
+ * I have also explored an alternative Pandas method for establishing Min, Max and Mean values. 
+ ```
+ print(dataset.describe(percentiles=[]))
+```
  <p align="center">
     
   <img  src="Description.PNG" alt="MaxMinMean" width="400" height="300"  />
