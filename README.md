@@ -7,8 +7,9 @@
 - [Data Analysis Process](#data_analysis_process)
 - [Place holder]
 - [Exploration of Data](#exploration_of_data)
-- [References](#references)
+- [Place holder]
 - [Initial Coding Attempt](#initial_coding_attempt)
+- [References](#references)
 
 ---
 
@@ -107,3 +108,6 @@ print ("Mean value of third col is:", meanthirdcol)
 ## Exploration_of_Data
 
 ## References
+* Initial research on Iris Flower Data Set on Wikipedia https://en.wikipedia.org/wiki/Iris_flower_data_set. 
+
+
