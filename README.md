@@ -60,6 +60,8 @@ print("Mean Petal Width: "),(round(dataset['petal-width'].mean()))
   
   </p>
   
+ * I have also explored an alternative method for establishing Min Max and Mean values. print(dataset.describe(percentiles=[]))
+  
 * Exploration of Data
         * Use Scatter Plot, Whisker Plot and Histogram graphs to represent Iris data
     
