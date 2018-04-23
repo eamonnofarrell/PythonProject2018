@@ -127,8 +127,9 @@ print ("Mean value of second col is:", meansecondcol)
 meanthirdcol = np.mean(data[:,2])
 print ("Mean value of third col is:", meanthirdcol)
 ```
-
+***
 ## Exploration_of_Data
+***
 
 ## References
 * Initial research on Iris Flower Data Set on Wikipedia https://en.wikipedia.org/wiki/Iris_flower_data_set. 
