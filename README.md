@@ -12,6 +12,8 @@
 - [References](#references)
 
 ---
+<a href="#" class="button pill">This is a pill button</a>
+
 <ul class="button-group">
     <li><a href="#" class="button primary pill">Dashboard</a></li>
     <li><a href="#" class="button pill">Inbox</a></li>
