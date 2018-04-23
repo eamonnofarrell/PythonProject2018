@@ -192,5 +192,6 @@ Table Data-7 | Table Data-8 | Table Data-9
 
 ## References
 * Initial research on Iris Flower Data Set on Wikipedia https://en.wikipedia.org/wiki/Iris_flower_data_set. 
+* Box and Whisker plots https://datavizcatalogue.com/methods/box_plot.html
 
 
