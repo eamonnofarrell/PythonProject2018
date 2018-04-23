@@ -153,16 +153,19 @@ plt.show()
  </details> 
  <details>
             <summary>Box Plot 2 (Click to expand)</summary>
+  The second Box Plot shows
     
-  The second box Plot 
     
-    
-    ```
-    
+ ```
+ url = "iris.csv"
+names = ['sepal-length', 'sepal-width', 'petal-length', 'petal-width', 'class']
+dataset = pandas.read_csv(url, names=names)
+
  dataset.boxplot(column="sepal-length",by="class")
  plt.show()
 
-    ```
+
+ ```
     
   <p align="center">
     
