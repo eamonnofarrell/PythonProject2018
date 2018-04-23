@@ -56,8 +56,11 @@ dataset = pandas.read_csv(url, names=names)
  
 * Describe Data
     * The data frame consists of 150 rows and 5 columns.
-    * Next we can get a feeling for the distribution of each attribute by reviewing summary statistics.
-    * We can review these statistics and start noting interesting facts about our problem. Such as the average number of pregnancies is 3.8, the minimum age is 21 and some people have a body mass index of 0, which is impossible and a sign that some of the attribute values should be marked as missing.
+    * We can review these statistics and start noting interesting facts about our the data set. 
+    * Such as 
+        - The minimum sepal length is 3.3 centimeters greater than the minimum petal length.
+        - The maximum sepal length is 7.9 centimeters.
+        - The average sepal length is 2.084 centimeters greater than the average petal length.
    
 * Perform initial analysis
     * Import [Pandas](https://en.wikipedia.org/wiki/Pandas_(software)) and [NumPy](https://en.wikipedia.org/wiki/NumPy) from Python Data Analysis Library
