@@ -80,13 +80,14 @@ print("Mean Petal Width: "),(round(dataset['petal-width'].mean()))
   <summary>Code extract and output screenshot ! (Click to expand)</summary>
  ```
  print(dataset.describe(percentiles=[]))
+    
 ```
  <p align="center">
     
   <img  src="Description.PNG" alt="MaxMinMean" width="400" height="300"  />
   
   </p>
-  
+ ``` 
   </details> 
   
 * Exploration of Data
