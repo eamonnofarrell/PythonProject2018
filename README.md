@@ -166,7 +166,7 @@ plt.show()
     
   <p align="center">
     
-  <img  src="Boxplot_Sepalength.png" alt="BoxPlot_Sepalength" width="300" height="300"  />
+  <img  src="Boxplot_Sepalength_Byclass.png" alt="BoxPlot_Sepalength" width="300" height="300"  />
   
  </p>
     
