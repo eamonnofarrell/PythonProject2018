@@ -45,7 +45,7 @@ Iris Virginica &nbsp;&nbsp;&nbsp;&nbsp;  &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&n
 
 
 <details>
-            <summary>Code extract and output screenshot (Click to expand)</summary>
+            <summary>Line by line method - Code extract and output screenshot (Click to expand)</summary>
     
    ```
   # max column value using Pandas max() method
@@ -77,12 +77,13 @@ print("Mean Petal Width: "),(round(dataset['petal-width'].mean()))
   
    </details>  
   
-  
+  <details>
+  <summary>Pandas describe() method - Code extract and output screenshot ! (Click to expand)</summary>
+    
+    
  * A more efficient Pandas *describe()* method requires a single line of code. 
  * Parameters percentiles[..],include[..] and exclude[..] can be set as required.  
  
- <details>
-  <summary>Code extract and output screenshot ! (Click to expand)</summary>
     
  ```
  print(dataset.describe(percentiles=[]))
