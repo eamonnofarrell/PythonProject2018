@@ -65,7 +65,7 @@ print("Mean Petal Width: "),(round(dataset['petal-width'].mean()))
 
  * Result of Max, Min and Mean calculations:
  <details>
-  <summaryResult! (Click to expand)</summary>
+ <summaryResult! (Click to expand)</summary>
  
  <p align="center">
     
