@@ -49,7 +49,7 @@ dataset = pandas.read_csv(url, names=names)
    ```
    <p align="center">
     
-  <img  src="Data.PNG" alt="Iris Data" width="300" height="300"  />
+  <img  src="Data.PNG" alt="Iris Data" width="500" height="500"  />
   
   </p>
  </details>
