@@ -32,6 +32,13 @@ Iris Virginica &nbsp;&nbsp;&nbsp;&nbsp;  &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&n
   
   </p>
   
+  ---
+**NOTE**
+
+It works with almost all markdown flavours (the below blank line matters).
+
+---
+  
   
 ## Data_Analysis_Process
 * Perform initial analysis
