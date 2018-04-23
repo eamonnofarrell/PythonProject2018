@@ -130,7 +130,9 @@ print("Mean Petal Width: "),(round(dataset['petal-width'].mean()))
 <details>
             <summary>Box Plot 1 (Click to expand)</summary>
     
-    * The first diagram is a representation of the Iris data set in Box Plot form. Key observations as follows: 
+    * The first diagram is a representation of the Iris data set in Box Plot form. 
+    * The data from each of the first four columns depicts graphically the groups of numerical data through their quartiles.
+    * Key observations as follows: 
         - There is a greater variance in the spread of petal length compared to sepal length, suggesting non uniformity. 
         - Sepal width shows a small spread from mean value of 3.054. 
         - The 'outliers' in sepal width are due to three values above max of 4 cms and one value under min 2.2 cms.
@@ -158,7 +160,10 @@ plt.show()
  </details> 
  <details>
             <summary>Box Plot 2 (Click to expand)</summary>
-  The second Box Plot shows
+    * The second Box Plot filters sepal length data and visualised per flower class
+        - There is a 1.5 variance in mean values between iris-setosa and iris-virginica
+        - The spread of values is greater in Iris-virginica
+        - The interquartile range (middle 50%) is similar across the three classifications
     
     
  ```
