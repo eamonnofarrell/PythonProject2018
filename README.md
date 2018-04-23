@@ -146,7 +146,7 @@ plt.show()
  
  <p align="center">
     
-  <img  src="BoxPlot1.png" alt="BoxPlot1" width="300" height="300"  />
+  <img  src="BoxPlot1.png" alt="BoxPlot1" width="400" height="400"  />
   
  </p>
  
@@ -169,7 +169,7 @@ dataset = pandas.read_csv(url, names=names)
     
   <p align="center">
     
-  <img  src="Boxplot_Sepalength_Byclass.png" alt="BoxPlot_Sepalength" width="300" height="300"  />
+  <img  src="Boxplot_Sepalength_Byclass.png" alt="BoxPlot_Sepalength" width="400" height="400"  />
   
  </p>
     
@@ -185,7 +185,7 @@ dataset = pandas.read_csv(url, names=names)
   
   <p align="center">
     
-  <img  src="box_plot.png" alt="Box Plot" width="300" height="300"  />
+  <img  src="box_plot.png" alt="Box Plot" width="400" height="400"  />
   
   </p>
     
