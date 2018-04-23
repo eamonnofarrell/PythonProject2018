@@ -160,6 +160,7 @@ plt.show()
  </details> 
  <details>
             <summary>Box Plot 2 (Click to expand)</summary>
+    
     * The second Box Plot filters sepal length data and visualised per flower class
         - There is a 1.5 variance in mean values between iris-setosa and iris-virginica
         - The spread of values is greater in Iris-virginica
