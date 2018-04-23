@@ -8,7 +8,7 @@
 - [Data Analysis Process](#data_analysis_process)
 - [Place holder]
 - [Exploration of Data](#exploration_of_data)
-- [Place holder]
+- [Analysis](#analysis)
 - [Initial Coding Attempt](#initial_coding_attempt)
 - [References](#references)
 
@@ -102,9 +102,13 @@ print("Mean Petal Width: "),(round(dataset['petal-width'].mean()))
 ## Exploration of Data
     * Use Scatter Plot, Whisker Plot and Histogram graphs to represent Iris data
     
+ ***
+    
 ## Analysis
     * Compare groups of data
     * Explore relationship between variables
+    
+***
  
 ## Initial_Coding_Attempt
 - Using Numpy, I calculated mean value of first three columns with np.mean(data). Python file [MeanofCols.py](./MeanofCols.py)
