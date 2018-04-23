@@ -32,12 +32,7 @@ Iris Virginica &nbsp;&nbsp;&nbsp;&nbsp;  &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&n
   
   </p>
   
-  ---
-**NOTE**
-
-It works with almost all markdown flavours (the below blank line matters).
-
----
+ 
   
   
 ## Data_Analysis_Process
@@ -46,9 +41,11 @@ It works with almost all markdown flavours (the below blank line matters).
     * [Pandas](https://en.wikipedia.org/wiki/Pandas_(software)) is an open source, BSD-licensed library providing high-performance, easy-to-use data structures and data analysis tools for the [Python](https://www.python.org/) programming language.
     * [NumPy](https://en.wikipedia.org/wiki/NumPy) is the fundamental package for scientific computing with Python.
     * Calculate and output Mean, Minimum and Maximum values. The initial calculations were done using straightforward python code. dataset['sepal-length'].max. Replacing .max in this expression with .min and .mean facilitates further calculations.
-    
+
+---
+
 <details>
-            <summary>Code extract and output screenshot ! (Click to expand)</summary>
+            <summary>**Code extract and output screenshot** (Click to expand)</summary>
     
    ```
   # max column value using Pandas max() method
@@ -97,6 +94,8 @@ print("Mean Petal Width: "),(round(dataset['petal-width'].mean()))
  </p>
  
  </details> 
+ 
+ ---
   
 * Exploration of Data
     * Use Scatter Plot, Whisker Plot and Histogram graphs to represent Iris data
