@@ -13,12 +13,6 @@
 - [References](#references)
 
 ---
-<details>
-  <summary>Your header here! (Click to expand)</summary>
-  Your content here...
-  > markup like blockquote's should even work on github!
-  more content here...
-</details>
 
 ## Introduction
 - The [Iris flower data set](./iris.csv) or Fisher's Iris data set is a multivariate data set introduced by the British statistician and biologist [Ronald Fisher](https://en.wikipedia.org/wiki/Ronald_Fisher) in his 1936 paper *The use of multiple measurements in taxonomic problems* as an example of [linear discriminant analysis](https://en.wikipedia.org/wiki/Linear_discriminant_analysis). It is sometimes called Anderson's Iris data set because Edgar Anderson collected the data to quantify the morphologic variation of Iris flowers of three related species. Two of the three species were collected in the Gaspé Peninsula "all from the same pasture, and picked on the same day and measured at the same time by the same person with the same apparatus"
@@ -46,7 +40,26 @@ Iris Virginica &nbsp;&nbsp;&nbsp;&nbsp;  &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&n
     * [NumPy](https://en.wikipedia.org/wiki/NumPy) is the fundamental package for scientific computing with Python.
     * Calculate and output Mean, Minimum and Maximum values. The initial calculations were done using straightforward python code. dataset['sepal-length'].max. Replacing .max in this expression with .min and .mean facilitates further calculations.
     
-     
+   <details>
+  <summary>Min Max Mean! (Click to expand)</summary>
+   ```
+  # max column value using Pandas max() method
+print("Mamimum Sepal Length: "),(dataset['sepal-length'].max())
+print("Mamimum Sepal Width: "),(dataset['sepal-width'].max())
+print("Mamimum Petal Length: "),(dataset['petal-length'].max())
+print("Mamimum Petal Width: "),(dataset['petal-width'].max())
+# minimum column value using Pandas min() method
+print("Minimum Sepal Length: "),(dataset['sepal-length'].min())
+print("Minimum Sepal Width: "),(dataset['sepal-width'].min())
+print("Minimum Petal Length: "),(dataset['petal-length'].min())
+print("Minimum Petal Width: "),(dataset['petal-width'].min())
+# mean column value using Pandas mean() method
+print("Mean Sepal Length: "),(round(dataset['sepal-length'].mean()))
+print("Mean Sepal Width: "),(round(dataset['sepal-width'].mean()))
+print("Mean Petal Length: "),(round(dataset['petal-length'].mean()))
+print("Mean Petal Width: "),(round(dataset['petal-width'].mean()))
+ ``` 
+</details>  
  
  ```
   # max column value using Pandas max() method
