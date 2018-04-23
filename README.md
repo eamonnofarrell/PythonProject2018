@@ -37,11 +37,22 @@ Iris Virginica &nbsp;&nbsp;&nbsp;&nbsp;  &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&n
   
 ## Data_Analysis_Process
 * Load dataset
+
+<details>
+            <summary>Line by line method - Code extract and output screenshot (Click to expand)</summary>
+
 ```
 url = "iris.csv"
 names = ['sepal-length', 'sepal-width', 'petal-length', 'petal-width', 'class']
 dataset = pandas.read_csv(url, names=names)
    ```
+   <p align="center">
+    
+  <img  src="Data.PNG" alt="Iris Data" width="300" height="300"  />
+  
+  </p>
+ </details>
+ 
 * Describe Data
     * Examine shape of Data
     * We can see that all of the data is numeric and that the class value on the end is the dependent variable that we want to make predictions about.
