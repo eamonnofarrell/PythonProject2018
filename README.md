@@ -1,7 +1,7 @@
 # Python Project 2018
 
 
-##  Table of Contents
+##  Table_of_Contents
 <img align="right" src="Sepetal.jpg" width="200" height="200">
 
 - [Introduction](#introduction)
@@ -136,7 +136,7 @@ print ("Mean value of third col is:", meanthirdcol)
 ## Exploration_of_Data
 <br/>
 <div align="right">
-    <b><a href="#----">↥ back to top</a></b>
+    <b><a href="#table_of_contents">↥ back to top</a></b>
 </div>
 <br/>
 
