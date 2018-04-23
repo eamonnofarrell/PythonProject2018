@@ -75,6 +75,9 @@ print("Mean Petal Width: "),(round(dataset['petal-width'].mean()))
   
   ***
  * A more efficient Pandas *describe()* method requires a single line of code. Parameters percentiles[..],include[..] and exclude[..] can be set as required.  
+ 
+ <details>
+  <summary>Code extract and output screenshot ! (Click to expand)</summary>
  ```
  print(dataset.describe(percentiles=[]))
 ```
@@ -83,6 +86,8 @@ print("Mean Petal Width: "),(round(dataset['petal-width'].mean()))
   <img  src="Description.PNG" alt="MaxMinMean" width="400" height="300"  />
   
   </p>
+  
+  </details> 
   
 * Exploration of Data
     * Use Scatter Plot, Whisker Plot and Histogram graphs to represent Iris data
