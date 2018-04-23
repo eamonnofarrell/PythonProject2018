@@ -36,6 +36,40 @@ Iris Virginica &nbsp;&nbsp;&nbsp;&nbsp;  &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&n
   ***
   
 ## Data_Analysis_Process
+* Load dataset
+```
+url = "iris.csv"
+names = ['sepal-length', 'sepal-width', 'petal-length', 'petal-width', 'class']
+dataset = pandas.read_csv(url, names=names)
+   ```
+* Describe Data
+    * Examine shape of Data
+    * We can see that all of the data is numeric and that the class value on the end is the dependent variable that we want to make predictions about.
+    
+
+    
+    Describe Data
+We can now look at the shape of the data.
+
+We can take a look at the first 60 rows of data by printing the data frame directly.
+
+
+print(data)
+1
+print(data)
+We can see that all of the data is numeric and that the class value on the end is the dependent variable that we want to make predictions about.
+
+At the end of the data dump we can see the description of the data frame itself as a 768 rows and 9 columns. So now we have idea of the shape of our data.
+
+Next we can get a feeling for the distribution of each attribute by reviewing summary statistics.
+
+
+print(data.describe())
+1
+print(data.describe())
+This displays a table of detailed distribution information for each of the 9 attributes in our data frame. Specifically: the count, mean, standard deviation, min, max, and 25th, 50th (median), 75th percentiles.
+
+We can review these statistics and start noting interesting facts about our problem. Such as the average number of pregnancies is 3.8, the minimum age is 21 and some people have a body mass index of 0, which is impossible and a sign that some of the attribute values should be marked as missing.
 * Perform initial analysis
     * Import [Pandas](https://en.wikipedia.org/wiki/Pandas_(software)) and [NumPy](https://en.wikipedia.org/wiki/NumPy) from Python Data Analysis Library
     * [Pandas](https://en.wikipedia.org/wiki/Pandas_(software)) is an open source, BSD-licensed library providing high-performance, easy-to-use data structures and data analysis tools for the [Python](https://www.python.org/) programming language.
