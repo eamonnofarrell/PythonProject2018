@@ -158,18 +158,19 @@ plt.show()
     
     
     ```
-    # box and whisker plots
+    
 dataset.boxplot(column="sepal-length",by="class")
 plt.show()
 
     ```
-    <p align="center">
+    
+  <p align="center">
     
   <img  src="Boxplot_Sepalength.png" alt="BoxPlot_Sepalength" width="300" height="300"  />
   
  </p>
     
-  </details>    
+ </details>    
  
  <details>
             <summary>What is a Box Plot? (Click to expand)</summary>
