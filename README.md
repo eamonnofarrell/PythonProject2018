@@ -149,7 +149,30 @@ plt.show()
   <img  src="BoxPlot1.png" alt="BoxPlot1" width="300" height="300"  />
   
  </p>
+ 
+ </details> 
+ <details>
+            <summary>Box Plot 2 (Click to expand)</summary>
     
+    The second box Plot 
+    
+    
+    ```
+    # box and whisker plots
+dataset.boxplot(column="sepal-length",by="class")
+plt.show()
+
+    ```
+    <p align="center">
+    
+  <img  src="Boxplot_Sepalength.png" alt="BoxPlot_Sepalength" width="300" height="300"  />
+  
+ </p>
+    
+  </details>    
+ 
+ <details>
+            <summary>What is a Box Plot? (Click to expand)</summary>
     
 > A Box and Whisker Plot (or Box Plot) is a convenient way of visually displaying the data distribution through their quartiles.The lines extending parallel from the boxes are known as the “whiskers”, which are used to indicate variability outside the upper and lower quartiles. Outliers are sometimes plotted as individual dots that are in-line with whiskers. 
 >>Although Box Plots may seem primitive in comparison to a Histogram or Density Plot, they have the advantage of taking up less space, which is useful when comparing distributions between many groups or datasets.
