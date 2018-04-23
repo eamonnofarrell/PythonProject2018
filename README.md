@@ -154,13 +154,13 @@ plt.show()
  <details>
             <summary>Box Plot 2 (Click to expand)</summary>
     
-    The second box Plot 
+  The second box Plot 
     
     
     ```
     
-dataset.boxplot(column="sepal-length",by="class")
-plt.show()
+ dataset.boxplot(column="sepal-length",by="class")
+ plt.show()
 
     ```
     
