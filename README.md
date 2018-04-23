@@ -128,10 +128,8 @@ print("Mean Petal Width: "),(round(dataset['petal-width'].mean()))
 ## Visualise_Data
 * Use Scatter Plot, Whisker Plot and Histogram graphs to represent Iris data
 * Boxplot - 
-    > Description -A Box and Whisker Plot (or Box Plot) is a convenient way of visually displaying the data distribution through their quartiles.The lines extending parallel from the boxes are known as the “whiskers”, which are used to indicate variability outside the upper and lower quartiles. Outliers are sometimes plotted as individual dots that are in-line with whiskers. Box Plots can be drawn either vertically or horizontally.
-
+    > A Box and Whisker Plot (or Box Plot) is a convenient way of visually displaying the data distribution through their quartiles.The lines extending parallel from the boxes are known as the “whiskers”, which are used to indicate variability outside the upper and lower quartiles. Outliers are sometimes plotted as individual dots that are in-line with whiskers. Box Plots can be drawn either vertically or horizontally.
     >>Although Box Plots may seem primitive in comparison to a Histogram or Density Plot, they have the advantage of taking up less space, which is useful when comparing distributions between many groups or datasets.
-
     >>>Here are the types of observations one can make from viewing a Box Plot:
     - What the key values are, such as: the average, median 25th percentile etc.
     - If there are any outliers and what their values are.
