@@ -42,6 +42,7 @@ Iris Virginica &nbsp;&nbsp;&nbsp;&nbsp;  &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&n
     
    <details>
   <summary>Min Max Mean! (Click to expand)</summary>
+    
    ```
   # max column value using Pandas max() method
 print("Mamimum Sepal Length: "),(dataset['sepal-length'].max())
