@@ -45,7 +45,7 @@ Iris Virginica &nbsp;&nbsp;&nbsp;&nbsp;  &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&n
 ---
 
 <details>
-            <summary>**Code extract and output screenshot** (Click to expand)</summary>
+            <summary>Code extract and output screenshot (Click to expand)</summary>
     
    ```
   # max column value using Pandas max() method
