@@ -40,8 +40,8 @@ Iris Virginica &nbsp;&nbsp;&nbsp;&nbsp;  &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&n
     * [NumPy](https://en.wikipedia.org/wiki/NumPy) is the fundamental package for scientific computing with Python.
     * Calculate and output Mean, Minimum and Maximum values. The initial calculations were done using straightforward python code. dataset['sepal-length'].max. Replacing .max in this expression with .min and .mean facilitates further calculations.
     
-<details>
-  <summary>Code extract and output screenshot ! (Click to expand)</summary>
+        <details>
+            <summary>Code extract and output screenshot ! (Click to expand)</summary>
     
    ```
   # max column value using Pandas max() method
@@ -71,7 +71,7 @@ print("Mean Petal Width: "),(round(dataset['petal-width'].mean()))
   
   </p>
   
-  </details>  
+        </details>  
   
   ***
  * A more efficient Pandas *describe()* method requires a single line of code. Parameters percentiles[..],include[..] and exclude[..] can be set as required.  
