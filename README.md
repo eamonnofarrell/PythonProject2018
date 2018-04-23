@@ -6,7 +6,7 @@
 
 - [Introduction](#introduction)
 - [Data Analysis Process](#data_analysis_process)
-- [Place holder]
+- [Place holder](#placeholder)
 - [Exploration of Data](#exploration_of_data)
 - [Analysis](#analysis)
 - [Initial Coding Attempt](#initial_coding_attempt)
@@ -99,7 +99,7 @@ print("Mean Petal Width: "),(round(dataset['petal-width'].mean()))
  
  ***
   
-## Exploration of Data
+## Placeholder
     * Use Scatter Plot, Whisker Plot and Histogram graphs to represent Iris data
     
  ***
