@@ -2,7 +2,7 @@
 
 
 ##  Table of Contents
-
+<img align="right" src="Sepetal.png">
 - [Introduction](#introduction)
 - [Data Analysis Process](#data_analysis_process)
 - [Place holder]
@@ -12,14 +12,7 @@
 - [References](#references)
 
 ---
-<a href="#" class="button pill">This is a pill button</a>
 
-<ul class="button-group">
-    <li><a href="#" class="button primary pill">Dashboard</a></li>
-    <li><a href="#" class="button pill">Inbox</a></li>
-    <li><a href="#" class="button pill">Account</a></li>
-    <li><a href="#" class="button pill">Logout</a></li>
-</ul>
 
 ## Introduction
 - The [Iris flower data set](./iris.csv) or Fisher's Iris data set is a multivariate data set introduced by the British statistician and biologist Ronald Fisher in his 1936 paper The use of multiple measurements in taxonomic problems as an example of linear discriminant analysis. It is sometimes called Anderson's Iris data set because Edgar Anderson collected the data to quantify the morphologic variation of Iris flowers of three related species. Two of the three species were collected in the Gaspé Peninsula "all from the same pasture, and picked on the same day and measured at the same time by the same person with the same apparatus"
