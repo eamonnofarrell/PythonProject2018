@@ -2,7 +2,7 @@
 
 
 ##  Table of Contents
-<img align="right" src="Sepetal.png" width="200" height="200">
+<img align="right" src="Sepetal.jpg" width="200" height="200">
 
 - [Introduction](#introduction)
 - [Data Analysis Process](#data_analysis_process)
