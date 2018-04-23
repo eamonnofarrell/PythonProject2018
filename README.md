@@ -78,7 +78,8 @@ print("Mean Petal Width: "),(round(dataset['petal-width'].mean()))
    </details>  
   
   
- * A more efficient Pandas *describe()* method requires a single line of code. Parameters percentiles[..],include[..] and exclude[..] can be set as required.  
+ * A more efficient Pandas *describe()* method requires a single line of code. 
+ * Parameters percentiles[..],include[..] and exclude[..] can be set as required.  
  
  <details>
   <summary>Code extract and output screenshot ! (Click to expand)</summary>
