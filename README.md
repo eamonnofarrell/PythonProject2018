@@ -97,10 +97,10 @@ print("Mean Petal Width: "),(round(dataset['petal-width'].mean()))
  
  ---
   
-* Exploration of Data
+## Exploration of Data
     * Use Scatter Plot, Whisker Plot and Histogram graphs to represent Iris data
     
-* Analysis
+## Analysis
     * Compare groups of data
     * Explore relationship between variables
  
