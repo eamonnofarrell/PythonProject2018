@@ -129,7 +129,7 @@ print("Mean Petal Width: "),(round(dataset['petal-width'].mean()))
 
 <details>
             <summary>Box Plot 1 (Click to expand)</summary>
-    The first diagram is a representation of the Iris data set in Box Plot form. Key observations as follows: 
+    * The first diagram is a representation of the Iris data set in Box Plot form. Key observations as follows: 
         - There is a greater variance in the spread of petal length compared to sepal length, suggesting non uniformity. 
         - Sepal width shows a small spread from mean value of 3.054. 
         - The 'outliers' in sepal width are due to three values above max of 4 cms and one value under min 2.2 cms.
