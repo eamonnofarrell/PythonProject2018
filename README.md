@@ -112,6 +112,10 @@ print("Mean Petal Width: "),(round(dataset['petal-width'].mean()))
  
 ## Initial_Coding_Attempt
 - Using Numpy, I calculated mean value of first three columns with np.mean(data). Python file [MeanofCols.py](./MeanofCols.py)
+
+<details>
+  <summary>Pandas describe() method - Code extract and output screenshot ! (Click to expand)</summary>
+
 ```
 data = pd.read_csv('iris.csv', header = None)
 print (data)
@@ -132,6 +136,8 @@ print ("Mean value of second col is:", meansecondcol)
 meanthirdcol = np.mean(data[:,2])
 print ("Mean value of third col is:", meanthirdcol)
 ```
+</details>
+
 ***
 ## Exploration_of_Data
 
