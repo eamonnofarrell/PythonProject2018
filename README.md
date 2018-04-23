@@ -39,7 +39,7 @@ Iris Virginica &nbsp;&nbsp;&nbsp;&nbsp;  &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&n
 * Load dataset
 
 <details>
-            <summary>Line by line method - Code extract and output screenshot (Click to expand)</summary>
+            <summary>Dataset example with code extract (Click to expand)</summary>
 
 ```
 url = "iris.csv"
