@@ -304,9 +304,9 @@ dataset = pandas.read_csv(url, names=names)
 ## Initial Coding
 <details>
             <summary>Early code example (Click to expand)</summary>
-* Import and load data with *data = np.genfromtxt('iris.csv', delimiter = ",")*.
-* Separate data into different columns *firstcol = data[:,0]*.
-* Using Numpy, I calculated mean value of first three columns with *np.mean(data)*. Python file [MeanofCols.py](./MeanofCols.py)
+    - Import and load data with *data = np.genfromtxt('iris.csv', delimiter = ",")*.
+    - Separate data into different columns *firstcol = data[:,0]*.
+    - Using Numpy, I calculated mean value of first three columns with *np.mean(data)*. Python file [MeanofCols.py](./MeanofCols.py)
 
 ```
 data = pd.read_csv('iris.csv', header = None)
