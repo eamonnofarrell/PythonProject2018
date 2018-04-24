@@ -222,6 +222,9 @@ dataset = pandas.read_csv(url, names=names)
     
 
 ## User_Guide
+<details>
+            <summary>Box Plot 1 (Click to expand)</summary>
+    
 1. The Python code for this project can be found in this repository in file [Python_Iris.py](./Python_Iris.py).
 2. Required software - download and install [Anaconda](https://conda.io/docs/user-guide/install/download.html).
 3. Create a new folder and download Python_Iris.py(./Python_Iris.py) plus Iris [data set](./iris.csv). Please make sure both files are located in same folder. 
@@ -255,6 +258,8 @@ dataset = pandas.read_csv(url, names=names)
 </div>
 <br/>
     
+</details>
+
 ***
  
 ## Initial_Coding_Attempt
