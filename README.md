@@ -7,11 +7,10 @@
 - [Introduction](#introduction)
 - [Data Analysis Process](#data_analysis_process)
 - [Visualise Data](#visualise_data)
-- [Exploration of Data](#exploration_of_data)
-- [Analysis](#analysis)
+- [Exploration and Analysis of Data](#exploration_of_data)
 - [User Guide One Running Code](#user_guide)
 - [Initial Coding Attempt](#initial_coding_attempt)
-- [Research - Interesting Analysas from other sources](#research)
+- [Research - Interesting Analysis from other sources](#research)
 - [References](#references)
 
 
@@ -218,16 +217,6 @@ dataset = pandas.read_csv(url, names=names)
     
  ***
     
-## Analysis
-    * Compare groups of data
-    * Explore relationship between variables
-
-<br/>
-<div align="right">
-    <b><a href="#table_of_contents">↥ back to top</a></b>
-</div>
-<br/>
-***
 
 ## User_Guide
 
