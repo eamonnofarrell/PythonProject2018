@@ -135,11 +135,17 @@ print("Mean Petal Width: "),(round(dataset['petal-width'].mean()))
  ***
   
 ## Visualise_Results
+* __Data Visualisation__ involves the creation and study of the visual representation of data. The primary goal is to ommunicate information clearly and efficiently [5]. 
+* I have chosen three graphical technques to visualise the data;
+    1. Box Plot - convenient way of visually displaying the data distribution through their quartiles [4]. 
+    2. Histogram - allows you discover, and show the underlying frequency distribution of a set of continuous data[6].
+    3. Scatter Plot - uses dots to represent individual pieces of data on x-y axis.
+
 
 <details>
             <summary>Box Plot 1 (Click to expand)</summary>
     
-    * The first diagram is a representation of the Iris data set in Box Plot [3] form. 
+    * The first diagram is a representation of the Iris data set in Box Plot form [3]. 
     * Pandas function [dataset.boxplot()](http://pandas.pydata.org/pandas-docs/version/0.17.0/generated/pandas.DataFrame.boxplot.html) gives us four box plots on a single graph. 
     * Data from each column is represented in box plot form. This gives us an insight into the uniqueness of each species of Iris.  
     * The data from each of the first four columns depicts graphically the groups of numerical data through their quartiles.
@@ -335,7 +341,8 @@ Table Data-7 | Table Data-8 | Table Data-9
 2. Pandas describe() method https://pandas.pydata.org/pandas-docs/stable/generated/pandas.DataFrame.describe.html
 3. Data Analysis https://machinelearningmastery.com/quick-and-dirty-data-analysis-with-pandas/
 4. Box and Whisker plots https://datavizcatalogue.com/methods/box_plot.html
-5. 
+5. Data Visualisation https://en.wikipedia.org/wiki/Data_visualization
+6. Histogram https://statistics.laerd.com/statistical-guides/understanding-histograms.php
 
 
 
