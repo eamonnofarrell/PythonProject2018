@@ -263,9 +263,6 @@ dataset = pandas.read_csv(url, names=names)
     
 - Using Numpy, I calculated mean value of first three columns with np.mean(data). Python file [MeanofCols.py](./MeanofCols.py)
 
-<details>
-  <summary>Pandas describe() method - Code extract and output screenshot  (Click to expand)</summary>
-
 ```
 data = pd.read_csv('iris.csv', header = None)
 print (data)
@@ -293,6 +290,7 @@ print ("Mean value of third col is:", meanthirdcol)
 </div>
 <br/>
 ***
+
 ## Exploration_of_Data
 
 >this mght be useful
