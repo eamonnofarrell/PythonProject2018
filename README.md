@@ -61,8 +61,7 @@ dataset = pandas.read_csv(url, names=names)
     * Quantative techniques such as Mean, Maximum and Minimum will be analysed
     * Three graphical technques will be used to visualise the data, Box Plots, Histograms and Scatter Plots.  
     * One of the key features of the data frame is that it consists of 5 columns, first four contain sepal/petal measurement in centimeters, the fifth contains flower type.
-    * We can review these statistics and start noting interesting facts about our data set. 
-    * Such as 
+    * We can review these statistics and start noting interesting facts about our data set, such as;
         - The minimum sepal length is 3.3 centimeters greater than the minimum petal length.
         - From mean values we can establish that sepal is bigger than petal.
         - Count tells us that all four columns have 150 rows.
