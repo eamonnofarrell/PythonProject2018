@@ -137,7 +137,9 @@ print("Mean Petal Width: "),(round(dataset['petal-width'].mean()))
 <details>
             <summary>Box Plot 1 (Click to expand)</summary>
     
-    * The first diagram is a representation of the Iris data set in Box Plot form. 
+    * The first diagram is a representation of the Iris data set in Box Plot [3] form. 
+    * Pandas function [dataset.boxplot()](http://pandas.pydata.org/pandas-docs/version/0.17.0/generated/pandas.DataFrame.boxplot.html) gives us four box plots on a single graph. 
+    * Data from each column is represented in box plot form. This gives us an insight into the uniqueness of each species of Iris.  
     * The data from each of the first four columns depicts graphically the groups of numerical data through their quartiles.
     * Key observations as follows: 
         - There is a greater variance in the spread of petal length compared to sepal length, suggesting non uniformity. 
@@ -286,7 +288,8 @@ Table Data-7 | Table Data-8 | Table Data-9
 ## References
 [1] Initial research on Iris Flower Data Set on Wikipedia https://en.wikipedia.org/wiki/Iris_flower_data_set. 
 [2] Pandas describe() method https://pandas.pydata.org/pandas-docs/stable/generated/pandas.DataFrame.describe.html
-[3] Box and Whisker plots https://datavizcatalogue.com/methods/box_plot.html
+[3] Data Analysis https://machinelearningmastery.com/quick-and-dirty-data-analysis-with-pandas/
+[4] Box and Whisker plots https://datavizcatalogue.com/methods/box_plot.html
 
 
 
