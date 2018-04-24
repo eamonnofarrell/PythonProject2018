@@ -259,7 +259,7 @@ dataset = pandas.read_csv(url, names=names)
 - Using Numpy, I calculated mean value of first three columns with np.mean(data). Python file [MeanofCols.py](./MeanofCols.py)
 
 <details>
-  <summary>Pandas describe() method - Code extract and output screenshot ! (Click to expand)</summary>
+  <summary>Pandas describe() method - Code extract and output screenshot  (Click to expand)</summary>
 
 ```
 data = pd.read_csv('iris.csv', header = None)
@@ -312,10 +312,10 @@ Table Data-7 | Table Data-8 | Table Data-9
 ***
 
 ## References
-[1] Initial research on Iris Flower Data Set on Wikipedia https://en.wikipedia.org/wiki/Iris_flower_data_set. 
-[2] Pandas describe() method https://pandas.pydata.org/pandas-docs/stable/generated/pandas.DataFrame.describe.html
-[3] Data Analysis https://machinelearningmastery.com/quick-and-dirty-data-analysis-with-pandas/
-[4] Box and Whisker plots https://datavizcatalogue.com/methods/box_plot.html
+1. Initial research on Iris Flower Data Set on Wikipedia https://en.wikipedia.org/wiki/Iris_flower_data_set. 
+2. Pandas describe() method https://pandas.pydata.org/pandas-docs/stable/generated/pandas.DataFrame.describe.html
+3. Data Analysis https://machinelearningmastery.com/quick-and-dirty-data-analysis-with-pandas/
+4. Box and Whisker plots https://datavizcatalogue.com/methods/box_plot.html
 
 
 
