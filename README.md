@@ -70,8 +70,7 @@ dataset = pandas.read_csv(url, names=names)
     * [Pandas](https://en.wikipedia.org/wiki/Pandas_(software)) is an open source, BSD-licensed library providing high-performance, easy-to-use data structures and data analysis tools for the [Python](https://www.python.org/) programming language.
     * [NumPy](https://en.wikipedia.org/wiki/NumPy) is the fundamental package for scientific computing with Python.
     * Calculate and output Mean, Minimum and Maximum values. The initial calculations were done using straightforward python code. dataset['sepal-length'].max. Replacing .max in this expression with .min and .mean facilitates further calculations.
-    * Further research on pandas methods provides a simpler way of calculating Min, Max, Mean using *describe()*. Pandas *describe()* 
-    generates descriptive statistics that summarise the central tendency, dispersion and shape of a dataset’s distribution, excluding NaN values [2].  
+    * Further research on pandas methods provide a simpler way of calculating Min, Max, Mean using *describe()* function. Pandas *describe()* generates descriptive statistics that summarise the central tendency, dispersion and shape of a dataset’s distribution, excluding NaN values [2].  
 
 
 
