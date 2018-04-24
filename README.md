@@ -57,12 +57,12 @@ dataset = pandas.read_csv(url, names=names)
  </details>
  
 * Data Description and Analysis
-    * The data frame consists of 150 rows and 5 columns.
+    * The data frame consists of 5 columns, first four contain sepal/petal measurement in centimeters, the fifth contains flower type.
     * We can review these statistics and start noting interesting facts about our data set. 
     * Such as 
         - The minimum sepal length is 3.3 centimeters greater than the minimum petal length.
-        - The maximum sepal length is 7.9 centimeters.
-        - The average sepal length is 2.084 centimeters greater than the average petal length.
+        - From mean values we can establish that sepal is bigger than petal.
+        - Count tells us that all four columns have 150 rows.
     * Import [Pandas](https://en.wikipedia.org/wiki/Pandas_(software)) and [NumPy](https://en.wikipedia.org/wiki/NumPy) from Python Data Analysis Library
     * [Pandas](https://en.wikipedia.org/wiki/Pandas_(software)) is an open source, BSD-licensed library providing high-performance, easy-to-use data structures and data analysis tools for the [Python](https://www.python.org/) programming language.
     * [NumPy](https://en.wikipedia.org/wiki/NumPy) is the fundamental package for scientific computing with Python.
