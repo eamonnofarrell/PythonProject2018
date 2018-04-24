@@ -57,7 +57,10 @@ dataset = pandas.read_csv(url, names=names)
  </details>
  
 * Data Description and Analysis
-    * The data frame consists of 5 columns, first four contain sepal/petal measurement in centimeters, the fifth contains flower type.
+    * The objective of this step in the process is to understand the main characteristics of Iris Data Set and the nature of the information we are dealing with.
+    * Quantative techniques such as Mean, Maximum and Minimum will be analysed
+    * Three graphical technques will be used to visualise the data, Box Plots, Histograms and Scatter Plots.  
+    * One of the key features of the data frame is that it consists of 5 columns, first four contain sepal/petal measurement in centimeters, the fifth contains flower type.
     * We can review these statistics and start noting interesting facts about our data set. 
     * Such as 
         - The minimum sepal length is 3.3 centimeters greater than the minimum petal length.
@@ -309,6 +312,16 @@ Table Data-7 | Table Data-8 | Table Data-9
 ***
 
 ## Research
+
+ >examples of interesting analyses that others have pursued based on the data set will be discussed.
+ * Interesting analyses that others have pursued based on the Iris data set
+    1. 
+    2. 
+    3. 
+    
+
+
+
 ***
 
 ## References
@@ -316,6 +329,7 @@ Table Data-7 | Table Data-8 | Table Data-9
 2. Pandas describe() method https://pandas.pydata.org/pandas-docs/stable/generated/pandas.DataFrame.describe.html
 3. Data Analysis https://machinelearningmastery.com/quick-and-dirty-data-analysis-with-pandas/
 4. Box and Whisker plots https://datavizcatalogue.com/methods/box_plot.html
+5. 
 
 
 
