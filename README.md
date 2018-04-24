@@ -137,9 +137,9 @@ print("Mean Petal Width: "),(round(dataset['petal-width'].mean()))
 ## Visualise_Results
 * __Data Visualisation__ involves the creation and study of the visual representation of data. The primary goal is to communicate information clearly and efficiently [5]. 
 * I have chosen three graphical technques to visualise the data;
-    1 Box Plot - convenient way of visually displaying the data distribution through their quartiles [4]. 
-    2 Histogram - allows you discover, and show the underlying frequency distribution of a set of continuous data[6].
-    3 Scatter Plot - uses dots to represent individual pieces of data on x-y axis.
+    1. Box Plot - convenient way of visually displaying the data distribution through their quartiles [4]. 
+    2. Histogram - allows you discover, and show the underlying frequency distribution of a set of continuous data[6].
+    3. Scatter Plot - uses dots to represent individual pieces of data on x-y axis.
 
 
 <details>
