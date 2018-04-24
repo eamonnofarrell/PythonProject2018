@@ -137,15 +137,15 @@ print("Mean Petal Width: "),(round(dataset['petal-width'].mean()))
 ## Visualise_Results
 * __Data Visualisation__ involves the creation and study of the visual representation of data. The primary goal is to communicate information clearly and efficiently [5]. 
 * I have chosen three graphical technques to visualise the data;
-    1. Box Plot - convenient way of visually displaying the data distribution through their quartiles [4]. 
-    2. Histogram - allows you discover, and show the underlying frequency distribution of a set of continuous data[6].
-    3. Scatter Plot - uses dots to represent individual pieces of data on x-y axis.
+    - Box Plot - convenient way of visually displaying the data distribution through their quartiles [4]. 
+    - Histogram - allows you discover, and show the underlying frequency distribution of a set of continuous data[6].
+    - Scatter Plot - uses dots to represent individual pieces of data on x-y axis.
 
 
 <details>
-            <summary>Box Plot 1 (Click to expand)</summary>
+            <summary>Box Plot 1 - each column is represented(Click to expand)</summary>
     
-    * The first diagram is a representation of the Iris data set in Box Plot form [3]. 
+    * The first diagram is a representation of the Iris data set in Box Plot form. 
     * Pandas function [dataset.boxplot()](http://pandas.pydata.org/pandas-docs/version/0.17.0/generated/pandas.DataFrame.boxplot.html) gives us four box plots on a single graph. 
     * Data from each column is represented in box plot form. This gives us an insight into the uniqueness of each species of Iris.  
     * The data from each of the first four columns depicts graphically the groups of numerical data through their quartiles.
@@ -176,7 +176,7 @@ plt.show()
  
  </details> 
  <details>
-            <summary>Box Plot 2 (Click to expand)</summary>
+            <summary>Box Plot 2 - sepal length per flower type(Click to expand)</summary>
     
     * The second Box Plot filters sepal length data * dataset.boxplot(column="sepal-length",by="class")* and is visualised per flower classification. 
         - There is a 1.5 variance in mean values between iris-setosa and iris-virginica
