@@ -9,7 +9,6 @@
 - [Visualise Results](#visualise_results)
 - [Exploration and Analysis of Data](#exploration_of_data)
 - [User Guide - Running Python Code](#user_guide)
-- [Initial Coding Attempt](#initial_coding_attempt)
 - [Research - Interesting Analysis from other sources](#research)
 - [References](#references)
 
@@ -268,6 +267,30 @@ dataset = pandas.read_csv(url, names=names)
 
 ***
  
+
+## Research
+
+ >examples of interesting analyses that others have pursued based on the data set will be discussed.
+ * Interesting analyses that others have pursued based on the Iris data set
+    1. 
+    2. 
+    3. 
+    
+
+
+
+***
+
+## References
+1. Initial research on Iris Flower Data Set on Wikipedia https://en.wikipedia.org/wiki/Iris_flower_data_set. 
+2. Pandas describe() method https://pandas.pydata.org/pandas-docs/stable/generated/pandas.DataFrame.describe.html
+3. Data Analysis https://machinelearningmastery.com/quick-and-dirty-data-analysis-with-pandas/
+4. Box and Whisker plots https://datavizcatalogue.com/methods/box_plot.html
+5. Data Visualisation https://en.wikipedia.org/wiki/Data_visualization
+6. Histogram https://statistics.laerd.com/statistical-guides/understanding-histograms.php
+
+
+***
 ## Initial_Coding_Attempt
 <details>
             <summary>Early code example (Click to expand)</summary>
@@ -305,14 +328,11 @@ print ("Mean value of third col is:", meanthirdcol)
 
 ## Exploration_of_Data
 
->this mght be useful
->>ver useful
->>>very useful indeed!!!
 
 Table Header-1 | Table Header-2 | Table Header-3
 :--- | :---: | ---:
 Table Data-1 | Table Data-2 | Table Data-3
-TD-4 | Td-5 | TD-6
+This | That | Other
 Table Data-7 | Table Data-8 | Table Data-9
 
 <br/>
@@ -322,27 +342,4 @@ Table Data-7 | Table Data-8 | Table Data-9
 <br/>
 
 ***
-
-## Research
-
- >examples of interesting analyses that others have pursued based on the data set will be discussed.
- * Interesting analyses that others have pursued based on the Iris data set
-    1. 
-    2. 
-    3. 
-    
-
-
-
-***
-
-## References
-1. Initial research on Iris Flower Data Set on Wikipedia https://en.wikipedia.org/wiki/Iris_flower_data_set. 
-2. Pandas describe() method https://pandas.pydata.org/pandas-docs/stable/generated/pandas.DataFrame.describe.html
-3. Data Analysis https://machinelearningmastery.com/quick-and-dirty-data-analysis-with-pandas/
-4. Box and Whisker plots https://datavizcatalogue.com/methods/box_plot.html
-5. Data Visualisation https://en.wikipedia.org/wiki/Data_visualization
-6. Histogram https://statistics.laerd.com/statistical-guides/understanding-histograms.php
-
-
 
