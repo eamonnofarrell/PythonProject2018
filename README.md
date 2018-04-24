@@ -236,7 +236,14 @@ dataset = pandas.read_csv(url, names=names)
   <img  src="/PNG/Iris_py.PNG" alt="Open Python File" width="400" height="400"  />
   
   </p>
- 
+  
+  6. Click on Debug -> Start debugging -> select Python. The following data should appear in Terminal window
+  <p align="center">
+    
+  <img  src="/PNG/Data_Out.PNG" alt="Data Out" width="400" height="400"  />
+  
+  </p>
+  7. 
     
 
 
