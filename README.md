@@ -8,7 +8,7 @@
 - [Data Analysis Process](#data_analysis_process)
 - [Visualise Data](#visualise_data)
 - [Exploration and Analysis of Data](#exploration_of_data)
-- [User Guide One Running Code](#user_guide)
+- [User Guide - Running Python Code](#user_guide)
 - [Initial Coding Attempt](#initial_coding_attempt)
 - [Research - Interesting Analysis from other sources](#research)
 - [References](#references)
@@ -17,9 +17,9 @@
 ---
 
 ## Introduction
-- The [Iris flower data set](./iris.csv) or Fisher's Iris data set is a multivariate data set introduced by the British statistician and biologist [Ronald Fisher](https://en.wikipedia.org/wiki/Ronald_Fisher) in his 1936 paper *The use of multiple measurements in taxonomic problems* as an example of [linear discriminant analysis](https://en.wikipedia.org/wiki/Linear_discriminant_analysis). It is sometimes called Anderson's Iris data set because Edgar Anderson collected the data to quantify the morphologic variation of Iris flowers of three related species. Two of the three species were collected in the Gaspé Peninsula "all from the same pasture, and picked on the same day and measured at the same time by the same person with the same apparatus"
+- The [Iris flower data set](./iris.csv) or Fisher's Iris data set is a multivariate data set introduced by the British statistician and biologist [Ronald Fisher](https://en.wikipedia.org/wiki/Ronald_Fisher) in his 1936 paper *The use of multiple measurements in taxonomic problems* as an example of [linear discriminant analysis](https://en.wikipedia.org/wiki/Linear_discriminant_analysis). It is sometimes called Anderson's Iris data set because Edgar Anderson collected the data to quantify the morphologic variation of Iris flowers of three related species. Two of the three species were collected in the Gaspé Peninsula "all from the same pasture, and picked on the same day and measured at the same time by the same person with the same apparatus"[1]
 
-- The [data set](./iris.csv) consists of 50 samples from each of three species of Iris (Iris setosa, Iris virginica and Iris versicolor). Four features were measured from each sample: the length and the width of the sepals and petals, in centimetres. Based on Fisher's linear discriminant model, this data set became a typical test case for many statistical classification techniques in machine learning such as support vector machines. 
+- The [data set](./iris.csv) consists of 50 samples from each of three species of Iris (Iris setosa, Iris virginica and Iris versicolor). Four features were measured from each sample: the length and the width of the sepals and petals, in centimetres. Based on Fisher's linear discriminant model, this data set became a typical test case for many statistical classification techniques in machine learning such as support vector machines. [1]
 
 <h3 align="center">Iris Versicolor &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;  &nbsp;&nbsp;&nbsp;&nbsp; 
 Iris Virginica &nbsp;&nbsp;&nbsp;&nbsp;  &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;  Iris Setosa</h3>
@@ -38,7 +38,7 @@ Iris Virginica &nbsp;&nbsp;&nbsp;&nbsp;  &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&n
   ***
   
 ## Data_Analysis_Process
-* Load dataset from Iris file. We can see that all of the data is numeric and that the class value on the end is the dependent variable that we want to analyse further.
+* The Comma Separated File containing [Iris Data Set](./iris.csv) is loaded with Python command *pandas.read_csv(url, names=names)*. We can see that the data in the first four columns is numeric without header information. Column names are assigned with command *names = ['sepal-length',...]*. The fifth column gives us the flower name associated with petal and sepal information for each row.
 
 
 <details>
@@ -285,7 +285,7 @@ Table Data-7 | Table Data-8 | Table Data-9
 ***
 
 ## References
-* Initial research on Iris Flower Data Set on Wikipedia https://en.wikipedia.org/wiki/Iris_flower_data_set. 
-* Box and Whisker plots https://datavizcatalogue.com/methods/box_plot.html
+[1] Initial research on Iris Flower Data Set on Wikipedia https://en.wikipedia.org/wiki/Iris_flower_data_set. 
+[2] Box and Whisker plots https://datavizcatalogue.com/methods/box_plot.html
 
 
