@@ -58,17 +58,20 @@ dataset = pandas.read_csv(url, names=names)
  
 * Describe Data
     * The data frame consists of 150 rows and 5 columns.
-    * We can review these statistics and start noting interesting facts about our the data set. 
+    * We can review these statistics and start noting interesting facts about our data set. 
     * Such as 
         - The minimum sepal length is 3.3 centimeters greater than the minimum petal length.
         - The maximum sepal length is 7.9 centimeters.
         - The average sepal length is 2.084 centimeters greater than the average petal length.
+        
    
 * Perform initial analysis
     * Import [Pandas](https://en.wikipedia.org/wiki/Pandas_(software)) and [NumPy](https://en.wikipedia.org/wiki/NumPy) from Python Data Analysis Library
     * [Pandas](https://en.wikipedia.org/wiki/Pandas_(software)) is an open source, BSD-licensed library providing high-performance, easy-to-use data structures and data analysis tools for the [Python](https://www.python.org/) programming language.
     * [NumPy](https://en.wikipedia.org/wiki/NumPy) is the fundamental package for scientific computing with Python.
     * Calculate and output Mean, Minimum and Maximum values. The initial calculations were done using straightforward python code. dataset['sepal-length'].max. Replacing .max in this expression with .min and .mean facilitates further calculations.
+    * Further research on pandas methods provides a simpler way of calculating Min, Max, Mean using *describe()*. Pandas *describe()* 
+    generates descriptive statistics that summarise the central tendency, dispersion and shape of a dataset’s distribution, excluding NaN values [2].  
 
 
 
@@ -286,7 +289,8 @@ Table Data-7 | Table Data-8 | Table Data-9
 
 ## References
 [1] Initial research on Iris Flower Data Set on Wikipedia https://en.wikipedia.org/wiki/Iris_flower_data_set. 
-[2] Box and Whisker plots https://datavizcatalogue.com/methods/box_plot.html
+[2] Pandas describe() method https://pandas.pydata.org/pandas-docs/stable/generated/pandas.DataFrame.describe.html
+[3] Box and Whisker plots https://datavizcatalogue.com/methods/box_plot.html
 
 
 
