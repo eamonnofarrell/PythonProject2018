@@ -224,6 +224,13 @@ dataset = pandas.read_csv(url, names=names)
 2. Required software - download and install [Anaconda](https://conda.io/docs/user-guide/install/download.html).
 3. Create a new folder and download Python_Iris.py(./Python_Iris.py) plus Iris [data set](./iris.csv). Please make sure both files are located in same folder. 
 4. Lauch Anaconda and click open folder -> 
+<p align="center">
+    
+  <img  src="/PNG/OpenWorkspace.PNG" alt="Open Workspace" width="400" height="400"  />
+  
+  </p>
+    
+
 
 <br/>
 <div align="right">
