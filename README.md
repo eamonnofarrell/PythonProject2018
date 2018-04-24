@@ -220,6 +220,10 @@ dataset = pandas.read_csv(url, names=names)
     
 
 ## User_Guide
+1. The code for this project can be found in Python format in file Python_Iris.py(./Python_Iris.py).
+2. Required software - download and install [Anaconda](https://conda.io/docs/user-guide/install/download.html).
+3. Create a new folder and download Python_Iris.py(./Python_Iris.py) plus Iris [data set](./iris.csv). Please make sure both files are located in same folder. 
+4. Lauch Anaconda and click open folder -> 
 
 <br/>
 <div align="right">
