@@ -301,7 +301,7 @@ dataset = pandas.read_csv(url, names=names)
 <br/>
 
 ***
-## Initial Coding
+# Initial Coding
 <details>
             <summary>Early code example (Click to expand)</summary>
     - Import and load data with *data = np.genfromtxt('iris.csv', delimiter = ",")*.
