@@ -6,7 +6,7 @@
 
 - [Introduction](#introduction)
 - [Data Analysis Process](#data_analysis_process)
-- [Visualise Data](#visualise_data)
+- [Visualise Results](#visualise_results)
 - [Exploration and Analysis of Data](#exploration_of_data)
 - [User Guide - Running Python Code](#user_guide)
 - [Initial Coding Attempt](#initial_coding_attempt)
@@ -134,7 +134,7 @@ print("Mean Petal Width: "),(round(dataset['petal-width'].mean()))
  
  ***
   
-## Visualise_Data
+## Visualise_Results
 
 <details>
             <summary>Box Plot 1 (Click to expand)</summary>
