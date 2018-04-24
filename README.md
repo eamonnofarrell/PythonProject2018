@@ -275,7 +275,12 @@ dataset = pandas.read_csv(url, names=names)
     1. 
     2. 
     3. 
-    
+   
+ <br/>
+<div align="right">
+    <b><a href="#table_of_contents">↥ back to top</a></b>
+</div>
+<br/>
 
 
 
@@ -289,6 +294,11 @@ dataset = pandas.read_csv(url, names=names)
 5. Data Visualisation https://en.wikipedia.org/wiki/Data_visualization
 6. Histogram https://statistics.laerd.com/statistical-guides/understanding-histograms.php
 
+<br/>
+<div align="right">
+    <b><a href="#table_of_contents">↥ back to top</a></b>
+</div>
+<br/>
 
 ***
 ## Initial Coding
@@ -319,11 +329,6 @@ meanthirdcol = np.mean(data[:,2])
 print ("Mean value of third col is:", meanthirdcol)
 ```
 
-<br/>
-<div align="right">
-    <b><a href="#table_of_contents">↥ back to top</a></b>
-</div>
-<br/>
 
 Table Header-1 | Table Header-2 | Table Header-3
 :--- | :---: | ---:
