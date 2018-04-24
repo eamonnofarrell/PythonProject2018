@@ -9,8 +9,7 @@
 - [Visualise Data](#visualise_data)
 - [Exploration of Data](#exploration_of_data)
 - [Analysis](#analysis)
-- [User Guide One Running Code(#user_guide)
-
+- [User Guide One Running Code](#user_guide)
 - [Initial Coding Attempt](#initial_coding_attempt)
 - [Research - Interesting Analysas from other sources](#research)
 - [References](#references)
