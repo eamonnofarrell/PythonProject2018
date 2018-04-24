@@ -9,8 +9,12 @@
 - [Visualise Data](#visualise_data)
 - [Exploration of Data](#exploration_of_data)
 - [Analysis](#analysis)
+- [User Guide One Running Code(#user_guide)
+
 - [Initial Coding Attempt](#initial_coding_attempt)
+- [Research - Interesting Analysas from other sources](#research)
 - [References](#references)
+
 
 ---
 
@@ -123,6 +127,12 @@ print("Mean Petal Width: "),(round(dataset['petal-width'].mean()))
  
  </details> 
  
+ <br/>
+<div align="right">
+    <b><a href="#table_of_contents">↥ back to top</a></b>
+</div>
+<br/>
+ 
  ***
   
 ## Visualise_Data
@@ -201,12 +211,32 @@ dataset = pandas.read_csv(url, names=names)
   </p>
     
  </details> 
+ <br/>
+<div align="right">
+    <b><a href="#table_of_contents">↥ back to top</a></b>
+</div>
+<br/>
     
  ***
     
 ## Analysis
     * Compare groups of data
     * Explore relationship between variables
+
+<br/>
+<div align="right">
+    <b><a href="#table_of_contents">↥ back to top</a></b>
+</div>
+<br/>
+***
+
+## User_Guide
+
+<br/>
+<div align="right">
+    <b><a href="#table_of_contents">↥ back to top</a></b>
+</div>
+<br/>
     
 ***
  
@@ -237,7 +267,11 @@ meanthirdcol = np.mean(data[:,2])
 print ("Mean value of third col is:", meanthirdcol)
 ```
 </details>
-
+<br/>
+<div align="right">
+    <b><a href="#table_of_contents">↥ back to top</a></b>
+</div>
+<br/>
 ***
 ## Exploration_of_Data
 
@@ -257,6 +291,9 @@ Table Data-7 | Table Data-8 | Table Data-9
 </div>
 <br/>
 
+***
+
+## Research
 ***
 
 ## References
