@@ -39,7 +39,6 @@ Iris Virginica &nbsp;&nbsp;&nbsp;&nbsp;  &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&n
   
 ## Data_Analysis_Process
 * __Data Acquisition:__ The Comma Separated File containing [Iris Data Set](./iris.csv) is loaded with Python command *pandas.read_csv(url, names=names)*. We can see that the data in the first four columns is numeric without header information. Column names are assigned with command *names = ['sepal-length',...]*. The fifth column gives us the flower name associated with petal and sepal data for each row.
-
 *__Attribute Information:__
     1 sepal length in cm
     2 sepal width in cm 
