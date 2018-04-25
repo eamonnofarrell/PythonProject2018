@@ -40,16 +40,7 @@ Iris Virginica &nbsp;&nbsp;&nbsp;&nbsp;  &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&n
 ## Data_Analysis_Process
 * __Data Acquisition:__ The Comma Separated File containing [Iris Data Set](./iris.csv) is loaded with Python command *pandas.read_csv(url, names=names)*. 
 * We can see that the data in the first four columns is numeric without header information. Column names are assigned with command *names = ['sepal-length',...]*. 
-* The fifth column gives us the flower name associated with petal and sepal data for each row.
-* __Attribute Information:__
-                            1 sepal length in cm
-                            2 sepal width in cm 
-                            3 petal length in cm 
-                            4 petal width in cm 
-                            5 class: 
-                                     - Iris Setosa 
-                                     - Iris Versicolour 
-                                     - Iris Virginica
+* The fifth attribute gives us the flower name associated with petal and sepal data for each row.
 
 <details>
             <summary>Dataset example with code extract (Click to expand)</summary>
@@ -283,9 +274,27 @@ dataset = pandas.read_csv(url, names=names)
 
  >examples of interesting analyses that others have pursued based on the data set will be discussed.
  * Interesting analyses that others have pursued based on the Iris data set
-    1. 
-    2. 
-    3. 
+    
+    
+* __Supervised learning:__ is the machine learning task of learning a function that maps an input to an output based on example input-output pairs. It infera a function from labled training data consisting of training examples. Each example consists of an input object and a desired output. A supervised learning algorithm analyses the trining data and produces an inferred function[8].  
+
+*  __Machine Learning.__ k-Nearest Neighbors algorithm is a method used for classification and regression. The k-NN algorithm is among the simplest of all machine learning algorithms [10]. This is the simplest machine learning algorithm. To make a prediction for the new data point, the algorithm finds the closest data points in the training data set. k-NN can be used both for classification and for regression tasks.
+    - An objest is *classified* by a majority vote of its neighbors, with the object being assigned to the class most common among its k nearest neighbors. For the purpose of this research we have three target classes — Setosa, Virginica and Versicolour.
+    - In k-NN *regression*, the output is the property value for the object. This value is the average of the values of its k nearest neighbors.
+    
+* __Classification__ In the simplest version k-NN takes the closest point from the training set and assigns it’s class to a new predicting point. Instead of considering only the closest neighbor, we can also consider an arbitrary number of neighbors — k-nearest. We use voting to assign the label. For each test point we count how many neighbors belong to each class and assign the class that is more frequent[10].
+
+
+
+
+
+
+* __Regression.__ There is also a regression variant of k-NN algorithm. Let’s look at how it will use training set to make a prediction. When using multiple nearest neighbors, the prediction is average, or mean, of the relevant neighbors. Score method for the regression returns R² score — coefficient of determination and yields a score between 0 and 1. 1 — is a perfect prediction and 0 — constant model that predicts the mean of the training set responses[10].
+ 
+    
+    
+    
+    
    
  <br/>
 <div align="right">
@@ -298,12 +307,16 @@ dataset = pandas.read_csv(url, names=names)
 ***
 
 ## References
-1. Initial research on Iris Flower Data Set on Wikipedia https://en.wikipedia.org/wiki/Iris_flower_data_set. 
-2. Pandas describe() method https://pandas.pydata.org/pandas-docs/stable/generated/pandas.DataFrame.describe.html
-3. Data Analysis https://machinelearningmastery.com/quick-and-dirty-data-analysis-with-pandas/
-4. Box and Whisker plots https://datavizcatalogue.com/methods/box_plot.html
-5. Data Visualisation https://en.wikipedia.org/wiki/Data_visualization
-6. Histogram https://statistics.laerd.com/statistical-guides/understanding-histograms.php
+[1] Initial research on Iris Flower Data Set on Wikipedia https://en.wikipedia.org/wiki/Iris_flower_data_set. 
+[2] Pandas describe() method https://pandas.pydata.org/pandas-docs/stable/generated/pandas.DataFrame.describe.html
+[3] Data Analysis https://machinelearningmastery.com/quick-and-dirty-data-analysis-with-pandas/
+[4] Box and Whisker plots https://datavizcatalogue.com/methods/box_plot.html
+[5] Data Visualisation https://en.wikipedia.org/wiki/Data_visualization
+[6] Histogram https://statistics.laerd.com/statistical-guides/understanding-histograms.php
+[7] Research - Supervised Learning http://scikit-learn.org/stable/tutorial/statistical_inference/supervised_learning.html
+[8] Supervised learning https://en.wikipedia.org/wiki/Supervised_learning
+[9] Machine Learning Nearest Neighbour https://towardsdatascience.com/learning-machine-learning-petals-32c68673d8fc
+[10] k Nearest Neighbour https://en.wikipedia.org/wiki/K-nearest_neighbors_algorithm
 
 <br/>
 <div align="right">
