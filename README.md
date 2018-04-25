@@ -21,14 +21,14 @@
 - The [data set](./iris.csv) consists of 50 samples from each of three species of Iris (Iris setosa, Iris virginica and Iris versicolor). Four features were measured from each sample: the length and the width of the sepals and petals, in centimetres. Based on Fisher's linear discriminant model, this data set became a typical test case for many statistical classification techniques in machine learning such as support vector machines [1].
 
 - __Attribute Information:__
-    1. sepal length in cm
-    2. sepal width in cm 
-    3. petal length in cm 
-    4. petal width in cm 
-    5. class: 
-    -- Iris Setosa 
-    -- Iris Versicolour 
-    -- Iris Virginica
+    - sepal length in cm
+    - sepal width in cm 
+    - petal length in cm 
+    - petal width in cm 
+    - class: 
+        -- Iris Setosa 
+        -- Iris Versicolour 
+        -- Iris Virginica
 
 
 
