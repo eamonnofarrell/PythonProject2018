@@ -283,7 +283,12 @@ dataset = pandas.read_csv(url, names=names)
     - In k-NN *regression*, the output is the property value for the object. This value is the average of the values of its k nearest neighbors.
     
 * __Classification__ In the simplest version k-NN takes the closest point from the training set and assigns it’s class to a new predicting point. Instead of considering only the closest neighbor, we can also consider an arbitrary number of neighbors — k-nearest. We use voting to assign the label. For each test point we count how many neighbors belong to each class and assign the class that is more frequent[10].
-
+<p align="center">
+    
+  <img  src="/PNG/1neighbour.png" alt="One Neighbour" width="400" height="400"  />
+  <img  src="/PNG/3neighbours.png" alt="One Neighbour" width="400" height="400"  />
+  </p>
+  
 
 
 
@@ -292,7 +297,11 @@ dataset = pandas.read_csv(url, names=names)
 * __Regression.__ There is also a regression variant of k-NN algorithm. Let’s look at how it will use training set to make a prediction. When using multiple nearest neighbors, the prediction is average, or mean, of the relevant neighbors. Score method for the regression returns R² score — coefficient of determination and yields a score between 0 and 1. 1 — is a perfect prediction and 0 — constant model that predicts the mean of the training set responses[10].
  
     
+ <p align="center">
     
+  <img  src="/PNG/Regression.png" alt="One Neighbour" width="400" height="400"  />
+  
+  </p>   
     
     
    
