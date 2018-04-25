@@ -299,7 +299,7 @@ dataset = pandas.read_csv(url, names=names)
     
  <p align="center">
     
-  <img  src="/PNG/Regression.png" alt="One Neighbour" width="400" height="400"  />
+  <img  src="/PNG/Regression.png" alt="One Neighbour" width="500" height="500"  />
   
   </p>   
     
