@@ -218,6 +218,32 @@ dataset = pandas.read_csv(url, names=names)
   
   </p>
     
+    
+    * Histogram
+    
+```    
+import numpy
+import pandas
+import matplotlib.pyplot as plt
+# Load dataset
+url = "iris.csv"
+names = ['sepal-length', 'sepal-width', 'petal-length', 'petal-width', 'class']
+dataset = pandas.read_csv(url, names=names)
+
+# histograms
+#dataset.hist()
+dataset.groupby('class').hist()
+plt.show()
+    
+ ```
+ 
+   <p align="center">
+    
+  <img  src="Histogram1.png" alt="Histogram" width="400" height="400"  />
+  
+  </p>
+    
+    
  </details> 
  <br/>
 <div align="right">
