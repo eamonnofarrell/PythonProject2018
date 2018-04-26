@@ -247,13 +247,14 @@ plt.show()
   
   </p>
     
-    </details>    
+     
 
  <br/>
 <div align="right">
     <b><a href="#table_of_contents">↥ back to top</a></b>
 </div>
 <br/>
+</details>   
     
  ***
     
