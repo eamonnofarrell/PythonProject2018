@@ -57,7 +57,7 @@ dataset = pandas.read_csv(url, names=names)
   </p>
  </details>
  
-* __Data Description and Analysis__
+* __Data Description and Processing__
     * The objective of this step in the process is to understand the main characteristics of Iris Data Set and the nature of the information we are dealing with.
     * Quantative techniques such as Mean, Maximum and Minimum will be analysed
     * Three graphical technques will be used to visualise the data, Box Plots, Histograms and Scatter Plots.  
