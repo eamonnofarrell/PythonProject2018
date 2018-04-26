@@ -7,7 +7,6 @@
 - [Introduction](#introduction)
 - [Data_Analysis](#data_analysis)
 - [Visualise Results](#visualise_results)
-- [Exploration and Analysis of Data](#exploration_of_data)
 - [User Guide - Running Python Code](#user_guide)
 - [Research - Interesting Analysis from other sources](#research)
 - [References](#references)
