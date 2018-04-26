@@ -317,16 +317,16 @@ dataset = pandas.read_csv(url, names=names)
 
 ## References
 
-[1] Initial research on Iris Flower Data Set on Wikipedia https://en.wikipedia.org/wiki/Iris_flower_data_set. 
-[2] Pandas describe() method https://pandas.pydata.org/pandas-docs/stable/generated/pandas.DataFrame.describe.html
-[3] Data Analysis https://machinelearningmastery.com/quick-and-dirty-data-analysis-with-pandas/
-[4] Box and Whisker plots https://datavizcatalogue.com/methods/box_plot.html
-[5] Data Visualisation https://en.wikipedia.org/wiki/Data_visualization
-[6] Histogram https://statistics.laerd.com/statistical-guides/understanding-histograms.php
-[7] Research - Supervised Learning http://scikit-learn.org/stable/tutorial/statistical_inference/supervised_learning.html
-[8] Supervised learning https://en.wikipedia.org/wiki/Supervised_learning
-[9] Machine Learning Nearest Neighbour https://towardsdatascience.com/learning-machine-learning-petals-32c68673d8fc
-[10] k Nearest Neighbour https://en.wikipedia.org/wiki/K-nearest_neighbors_algorithm
+    [1] Initial research on Iris Flower Data Set on Wikipedia https://en.wikipedia.org/wiki/Iris_flower_data_set. 
+    [2] Pandas describe() method https://pandas.pydata.org/pandas-docs/stable/generated/pandas.DataFrame.describe.html
+    [3] Data Analysis https://machinelearningmastery.com/quick-and-dirty-data-analysis-with-pandas/
+    [4] Box and Whisker plots https://datavizcatalogue.com/methods/box_plot.html
+    [5] Data Visualisation https://en.wikipedia.org/wiki/Data_visualization
+    [6] Histogram https://statistics.laerd.com/statistical-guides/understanding-histograms.php
+    [7] Research - Supervised Learning http://scikit-learn.org/stable/tutorial/statistical_inference/supervised_learning.html
+    [8] Supervised learning https://en.wikipedia.org/wiki/Supervised_learning
+    [9] Machine Learning Nearest Neighbour https://towardsdatascience.com/learning-machine-learning-petals-32c68673d8fc
+    [10] k Nearest Neighbour https://en.wikipedia.org/wiki/K-nearest_neighbors_algorithm
 
 <br/>
 <div align="right">
