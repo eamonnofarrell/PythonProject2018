@@ -5,7 +5,7 @@
 <img align="right" src="Sepetal.jpg" width="200" height="200">
 
 - [Introduction](#introduction)
-- [Data_Analysis_Explore&Process](#data_analysis_explore&process)
+- [Data_Analysis](#data_analysis)
 - [Visualise Results](#visualise_results)
 - [Exploration and Analysis of Data](#exploration_of_data)
 - [User Guide - Running Python Code](#user_guide)
@@ -37,7 +37,7 @@ Iris Virginica &nbsp;&nbsp;&nbsp;&nbsp;  &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&n
  
   ***
   
-## Data_Analysis_Explore&Process
+## Data_Analysis
 * __Data Acquisition:__ The Comma Separated Raw Data File containing [Iris Data Set](./iris.csv) is loaded with Python command *pandas.read_csv(url, names=names)*. 
 * We can see that the data in the first four columns is numeric without header information. Column names are assigned with command *names = ['sepal-length',...]*. 
 * The fifth attribute gives us the flower name associated with petal and sepal data for each row.
