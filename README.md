@@ -395,12 +395,6 @@ print ("Mean value of third col is:", meanthirdcol)
 ```
 
 
-Table Header-1 | Table Header-2 | Table Header-3
-:--- | :---: | ---:
-Table Data-1 | Table Data-2 | Table Data-3
-This | That | Other
-Table Data-7 | Table Data-8 | Table Data-9
-
 <br/>
 <div align="right">
     <b><a href="#table_of_contents">↥ back to top</a></b>
