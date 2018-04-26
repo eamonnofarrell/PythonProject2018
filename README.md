@@ -217,9 +217,9 @@ dataset = pandas.read_csv(url, names=names)
   <img  src="box_plot.png" alt="Box Plot" width="400" height="400"  />
   
   </p>
+   </details>   
     
-    
-    * Histogram
+ * Histogram
     
 ```    
 import numpy
@@ -239,12 +239,12 @@ plt.show()
  
    <p align="center">
     
-  <img  src="Histogram1.png" alt="Histogram" width="400" height="400"  />
+  <img  src="/PNG/Histogram1.png" alt="Histogram" width="400" height="400"  />
   
   </p>
     
     
- </details> 
+
  <br/>
 <div align="right">
     <b><a href="#table_of_contents">↥ back to top</a></b>
