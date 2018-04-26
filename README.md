@@ -218,8 +218,12 @@ dataset = pandas.read_csv(url, names=names)
   
   </p>
    </details>   
+   
+ <details>
+            <summaryHistogram (Click to expand)</summary>  
     
  * Histogram
+ 
     
 ```    
 import numpy
@@ -243,7 +247,7 @@ plt.show()
   
   </p>
     
-    
+    </details>    
 
  <br/>
 <div align="right">
