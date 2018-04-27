@@ -217,7 +217,27 @@ dataset = pandas.read_csv(url, names=names)
   
   </p>
    </details>   
-   
+ <details>
+            <summary>Scatter Plot Diagram (Click to expand)</summary>  
+    
+ * __Histogram__
+ 
+ 
+    
+```    
+# Use Pandas histograms .hist() to plot standard histogram of Iris Data Set
+DataFrame.hist()
+plt.show()
+
+    
+ ```
+ 
+   <p align="center">
+    
+  <img  src="/PNG/Histogram1.png" alt="Scatter Plot" width="400" height="400"  />
+  
+  </p> 
+  </details>  
  <details>
             <summary>Scatter Plot Diagram (Click to expand)</summary>  
     
@@ -226,7 +246,7 @@ dataset = pandas.read_csv(url, names=names)
  
     
 ```    
-# scatter plot matrix
+# scatter plot matrix with data from csv file
 scatter_matrix(DataFrame)
 plt.show()
 
