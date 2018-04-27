@@ -226,16 +226,16 @@ dataset = pandas.read_csv(url, names=names)
  
     
 ```    
-import numpy
-import pandas
-import matplotlib.pyplot as plt
+# scatter plot matrix
+scatter_matrix(DataFrame)
+plt.show()
 
     
  ```
  
    <p align="center">
     
-  <img  src="/PNG/Histogram1.png" alt="Histogram" width="400" height="400"  />
+  <img  src="/PNG/Scatter_Plot.png" alt="Scatter Plot" width="400" height="400"  />
   
   </p>
     
