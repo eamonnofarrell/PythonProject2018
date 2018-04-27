@@ -219,24 +219,17 @@ dataset = pandas.read_csv(url, names=names)
    </details>   
    
  <details>
-            <summaryHistogram (Click to expand)</summary>  
+            <summary>Scatter Plot Diagram (Click to expand)</summary>  
     
- * Histogram
+ * __Scatter Plot Diagram__
+ 
  
     
 ```    
 import numpy
 import pandas
 import matplotlib.pyplot as plt
-# Load dataset
-url = "iris.csv"
-names = ['sepal-length', 'sepal-width', 'petal-length', 'petal-width', 'class']
-dataset = pandas.read_csv(url, names=names)
 
-# histograms
-#dataset.hist()
-dataset.groupby('class').hist()
-plt.show()
     
  ```
  
@@ -352,7 +345,7 @@ plt.show()
     [3] Data Analysis https://machinelearningmastery.com/quick-and-dirty-data-analysis-with-pandas/
     [4] Box and Whisker plots https://datavizcatalogue.com/methods/box_plot.html
     [5] Data Visualisation https://en.wikipedia.org/wiki/Data_visualization
-    [6] Histogram https://statistics.laerd.com/statistical-guides/understanding-histograms.php
+    [6] Scatter Plot 
     [7] Research - Supervised Learning http://scikit-learn.org/stable/tutorial/statistical_inference/supervised_learning.html
     [8] Supervised learning https://en.wikipedia.org/wiki/Supervised_learning
     [9] Machine Learning Nearest Neighbour https://towardsdatascience.com/learning-machine-learning-petals-32c68673d8fc
