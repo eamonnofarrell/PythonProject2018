@@ -176,7 +176,7 @@ plt.show()
  
  </details> 
  <details>
-            <summary>Box Plot 2 - sepal length per flower type...........................................(Click to expand)</summary>
+            <summary>Box Plot 2 - sepal length per flower type............................(Click to expand)</summary>
     
     * The second Box Plot filters sepal length data * dataset.boxplot(column="sepal-length",by="class")* and is visualised per flower classification. 
         - There is a 1.5 variance in mean values between iris-setosa and iris-virginica
@@ -239,7 +239,7 @@ plt.show()
   </p> 
   </details>  
  <details>
-            <summary>Scatter Plot Diagram.................................. (Click to expand)</summary>  
+            <summary>Scatter Plot Diagram........................................... (Click to expand)</summary>  
     
  * __Scatter Plot Diagram__: A scatter plot diagram is a mathematical diagram which displayes values (typically 2 variables) for a set of data. The first diagram uses the *scatter_matrix* method from Pandas and plots the data from the four columns.  
  
