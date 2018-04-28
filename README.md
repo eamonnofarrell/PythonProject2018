@@ -394,9 +394,8 @@ plt.show()
     - Non-parametric means it makes no explicit assumptions about the functional form of h, avoiding the dangers of mismodeling the underlying distribution of the data. For example, suppose our data is highly non-Gaussian but the learning model we choose assumes a Gaussian form. In that case, our algorithm would make extremely poor predictions. [12]
     - Instance-based learning means that our algorithm doesn’t explicitly learn a model. Instead, it chooses to memorize the training instances which are subsequently used as “knowledge” for the prediction phase. Concretely, this means that only when a query to our database is made (i.e. when we ask it to predict a label given an input), will the algorithm use the training instances to spit out an answer. [12]
     
-    
-    
-* The analysis from a kNN Wikipedia example[11] shows that a kNN classifier makes few mistakes in a dataset that, although simple, is not linearly separable, as shown in the scatterplots and by a look at the confusion matrix, where all misclassifications are between Iris Versicolor and Iris Virginica instances. The case study also shows how RWeka makes it trivially easy to learn classifiers (and predictors, and clustering models as well), and to experiment with their parameters. In this classic dataset, a kNN classifier makes very few mistakes.
+     
+* The analysis from a kNN Wikipedia example shows that a kNN classifier makes few mistakes in a dataset that, although simple, is not linearly separable, as shown in the scatterplots and by a look at the confusion matrix, where all misclassifications are between Iris Versicolor and Iris Virginica instances. The case study also shows how RWeka makes it trivially easy to learn classifiers (and predictors, and clustering models as well), and to experiment with their parameters. In this classic dataset, a kNN classifier makes very few mistakes.[11]
        
 * __Supervised learning:__ is the machine learning task of learning a function that maps an input to an output based on example input-output pairs. It infera a function from labled training data consisting of training examples. Each example consists of an input object and a desired output. A supervised learning algorithm analyses the trining data and produces an inferred function[8].  
 
@@ -412,11 +411,7 @@ plt.show()
   </p>
   
 
-
-
-
-
-* __Regression.__ There is also a regression variant of k-NN algorithm. Let’s look at how it will use training set to make a prediction. When using multiple nearest neighbors, the prediction is average, or mean, of the relevant neighbors. Score method for the regression returns R² score — coefficient of determination and yields a score between 0 and 1. 1 — is a perfect prediction and 0 — constant model that predicts the mean of the training set responses[10].
+* __Regression.__ There is also a regression variant of k-NN algorithm. Let’s look at how it will use training set to make a prediction. When using multiple nearest neighbors, the prediction is average, or mean, of the relevant neighbors. Score method for the regression returns R² score — coefficient of determination and yields a score between 0 and 1. 1 — is a perfect prediction and 0 — constant model that predicts the mean of the training set responses. [10]
  
     
  <p align="center">
