@@ -239,7 +239,7 @@ plt.show()
   </p> 
   </details>  
  <details>
-            <summary>Scatter Plot Diagram........................................... (Click to expand)</summary>  
+            <summary>Scatter Plot Diagram....................................................... (Click to expand)</summary>  
     
  * __Scatter Plot Diagram__: A scatter plot diagram is a mathematical diagram which displayes values (typically 2 variables) for a set of data. The first diagram uses the *scatter_matrix* method from Pandas and plots the data from the four columns.  
  
