@@ -42,7 +42,7 @@ Iris Virginica &nbsp;&nbsp;&nbsp;&nbsp;  &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&n
 * The fifth attribute *'class'* gives us the flower name associated with petal and sepal data.
 
 <details>
-            <summary>Dataset example with code extract...........(Click to expand)</summary>
+            <summary>Dataset example with code extract...............(Click to expand)</summary>
 
 ```
 url = "iris.csv"
@@ -74,7 +74,7 @@ dataset = pandas.read_csv(url, names=names)
 
 
 <details>
-            <summary>Line by line method - Code extract and output screenshot (Click to expand)</summary>
+            <summary>Line by line method - Code extract and output screenshot........ (Click to expand)</summary>
     
    ```
   # max column value using Pandas max() method
@@ -107,7 +107,7 @@ print("Mean Petal Width: "),(round(dataset['petal-width'].mean()))
    </details>  
   
   <details>
-  <summary>Pandas describe() method - Code extract and output screenshot ! (Click to expand)</summary>
+  <summary>Pandas describe() method - Code extract and output screenshot............. (Click to expand)</summary>
     
     
  * A more efficient Pandas *describe()* method requires a single line of code. 
@@ -143,7 +143,7 @@ print("Mean Petal Width: "),(round(dataset['petal-width'].mean()))
 
 
 <details>
-            <summary>Box Plot 1 - each column is represented(Click to expand)</summary>
+            <summary>Box Plot 1 - each column is represented..................(Click to expand)</summary>
     
     * The first diagram is a representation of the Iris data set in Box Plot form. 
     * Pandas function [dataset.boxplot()](http://pandas.pydata.org/pandas-docs/version/0.17.0/generated/pandas.DataFrame.boxplot.html) gives us four box plots on a single graph. 
@@ -176,7 +176,7 @@ plt.show()
  
  </details> 
  <details>
-            <summary>Box Plot 2 - sepal length per flower type(Click to expand)</summary>
+            <summary>Box Plot 2 - sepal length per flower type....................(Click to expand)</summary>
     
     * The second Box Plot filters sepal length data * dataset.boxplot(column="sepal-length",by="class")* and is visualised per flower classification. 
         - There is a 1.5 variance in mean values between iris-setosa and iris-virginica
@@ -204,7 +204,7 @@ dataset = pandas.read_csv(url, names=names)
  </details>    
  
  <details>
-            <summary>What is a Box Plot? (Click to expand)</summary>
+            <summary>What is a Box Plot?.............................. (Click to expand)</summary>
     
 > A Box and Whisker Plot (or Box Plot) is a convenient way of visually displaying the data distribution through their quartiles.The lines extending parallel from the boxes are known as the “whiskers”, which are used to indicate variability outside the upper and lower quartiles. Outliers are sometimes plotted as individual dots that are in-line with whiskers [4]. 
 >>Although Box Plots may seem primitive in comparison to a Histogram or Density Plot, they have the advantage of taking up less space, which is useful when comparing distributions between many groups or datasets.
@@ -218,7 +218,7 @@ dataset = pandas.read_csv(url, names=names)
   </p>
    </details>   
  <details>
-            <summary>Histogram (Click to expand)</summary>  
+            <summary>Histogram............................................ (Click to expand)</summary>  
     
  * __Histogram__
  
@@ -239,7 +239,7 @@ plt.show()
   </p> 
   </details>  
  <details>
-            <summary>Scatter Plot Diagram (Click to expand)</summary>  
+            <summary>Scatter Plot Diagram.................................. (Click to expand)</summary>  
     
  * __Scatter Plot Diagram__: A scatter plot diagram is a mathematical diagram which displayes values (typically 2 variables) for a set of data. The first diagram uses the *scatter_matrix* method from Pandas and plots the data from the four columns.  
  
@@ -270,7 +270,7 @@ plt.show()
 </details>  
 
 <details>
-            <summary>Interesting Research on Scatter Plot Diagram (Click to expand)</summary>  
+            <summary>Interesting Research on Scatter Plot Diagram............................. (Click to expand)</summary>  
     
  * __Scatter Plot Diagram__: I found the following code while researching scatter plot diagrams. This is a very interesting way of visualising two dimensional scatter plot diagrams because a third dimension/colour can be added to show the class of flower[6]. 
  * The first extract from code loads data from sklearn.datasets. x_index takes data from column 1 and y_index takes data from column 2 (sepal length and sepal width). The x and y give us a two dimensional array *plt.scatter(iris.data[:, x_index], iris.data[:, y_index], c=iris.target)*. The next significant feature is the target array *iris.target* the flower types ('setosa' 'versicolor' 'virginica'). 
@@ -334,13 +334,14 @@ plt.show()
     <b><a href="#table_of_contents">↥ back to top</a></b>
 </div>
 <br/>
-</details>  
+</details>
+
  ***
     
 
 ## User_Guide
 <details>
-            <summary>Instructions to users (Click to expand)</summary>
+            <summary>Instructions to users............................. (Click to expand)</summary>
     
 1. The Python code for this project can be found in this repository in file [Python_Iris.py](./Python_Iris.py).
 2. Required software - download and install [Anaconda](https://conda.io/docs/user-guide/install/download.html).
