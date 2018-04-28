@@ -47,7 +47,7 @@ Iris Virginica &nbsp;&nbsp;&nbsp;&nbsp;  &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&n
 ```
 url = "iris.csv"
 names = ['sepal-length', 'sepal-width', 'petal-length', 'petal-width', 'class']
-dataset = pandas.read_csv(url, names=names)
+IrisData = pandas.read_csv(url, names=names)
    ```
    <p align="center">
     
@@ -115,7 +115,7 @@ print("Mean Petal Width: "),(round(dataset['petal-width'].mean()))
  
     
  ```
- print(dataset.describe(percentiles=[]))
+ print(IrisData.describe(percentiles=[]))
  ```
 
  <p align="center">
@@ -159,10 +159,10 @@ print("Mean Petal Width: "),(round(dataset['petal-width'].mean()))
   ```
   url = "iris.csv"
 names = ['sepal-length', 'sepal-width', 'petal-length', 'petal-width', 'class']
-dataset = pandas.read_csv(url, names=names)
+IrisData = pandas.read_csv(url, names=names)
 
 # box and whisker plots
-dataset.boxplot()
+IrisData.boxplot()
 plt.show()
 
 
@@ -187,9 +187,9 @@ plt.show()
  ```
  url = "iris.csv"
 names = ['sepal-length', 'sepal-width', 'petal-length', 'petal-width', 'class']
-dataset = pandas.read_csv(url, names=names)
+IrisData = pandas.read_csv(url, names=names)
 
- dataset.boxplot(column="sepal-length",by="class")
+ IrisData.boxplot(column="sepal-length",by="class")
  plt.show()
 
 
@@ -220,12 +220,12 @@ dataset = pandas.read_csv(url, names=names)
  <details>
             <summary>Histogram example.............................................................. (Click to expand)</summary>  
     
- * __Histogram__ The Histogram is used primarily in statistics to evaluate the distribution of the data. 
+ * __Histogram__ The Histogram is used primarily in statistics to evaluate the distribution of the data. The first piece of code allowsus to use *.hist* to plot a stndard histogram diagram based on the four columns of data - Sepal width and length, petal width and length.  
  
      
 ```    
 # Use Pandas histograms .hist() to plot standard histogram of Iris Data Set
-DataFrame.hist()
+IrisData.hist()
 plt.show()
     
  ```
@@ -236,6 +236,8 @@ plt.show()
   
   </p> 
   </details>  
+  
+  * The second Histogram is based on a filtered version of the first diagram. The code *.hist(column='sepal-length')* allows us to filter on data from a single column. This makes the reading of the Histogram more accurate. 
 
  ```
   # Use .hist() to filter sepal-length column and plot histogram 
@@ -259,7 +261,7 @@ plt.show()
     
 ```    
 # scatter plot matrix with data from csv file
-scatter_matrix(DataFrame)
+scatter_matrix(IrisData)
 plt.show()
 
     
