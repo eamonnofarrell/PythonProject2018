@@ -287,8 +287,8 @@ plt.show()
 <details>
             <summary>Interesting Research - Scatter Plot Diagram.................. (Click to expand)</summary>  
     
- * __Scatter Plot Diagram__: I found the following code while researching scatter plot diagrams. This is a very interesting way of visualising two dimensional scatter plot diagrams because a third dimension/colour can be added to show the class of flower[6]. 
- * The first extract from code loads data from sklearn.datasets. x_index takes data from column 1 and y_index takes data from column 2 (sepal length and sepal width). The x and y give us a two dimensional array *plt.scatter(iris.data[:, x_index], iris.data[:, y_index], c=iris.target)*. The next significant feature is the target array *iris.target* the flower types ('setosa' 'versicolor' 'virginica'). 
+ * __Scatter Plot Diagram__: I found the following code while researching scatter plot diagrams. This is a very interesting way of visualising data because a third dimension/colour can be added to show the class of flower[6]. 
+ * The first extract from code loads data from *sklearn.datasets*. Column1 data is loaded to array *x_index* and Column2 data is loaded to array *y_index* (sepal length and sepal width). The x and y give us a two dimensional array *plt.scatter(iris.data[:, x_index], iris.data[:, y_index], c=iris.target)*. The next significant feature is the target array *iris.target* the flower types ('setosa' 'versicolor' 'virginica'). 
     
   ```
 # Load the data
