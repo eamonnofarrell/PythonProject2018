@@ -298,6 +298,7 @@ plt.ylabel(iris.feature_names[y_index])
 plt.tight_layout()
 plt.show()
 ```
+
 <p align="center">
     
   <img  src="/PNG/ScatterBest1.png" alt="Scatter Plot" width="400" height="400"  />
@@ -322,6 +323,7 @@ plt.tight_layout()
 plt.show()
 
  ```
+ 
  <p align="center">
     
   <img  src="/PNG/ScatterBest2.png" alt="Scatter Plot" width="400" height="400"  />
