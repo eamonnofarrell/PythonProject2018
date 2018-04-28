@@ -176,7 +176,7 @@ plt.show()
  
  </details> 
  <details>
-            <summary>Box Plot 2 - sepal length per flower type............................(Click to expand)</summary>
+            <summary>Box Plot 2 - sepal length per flower type..................(Click to expand)</summary>
     
     * The second Box Plot filters sepal length data * dataset.boxplot(column="sepal-length",by="class")* and is visualised per flower classification. 
         - There is a 1.5 variance in mean values between iris-setosa and iris-virginica
@@ -218,7 +218,7 @@ dataset = pandas.read_csv(url, names=names)
   </p>
    </details>   
  <details>
-            <summary>Histogram............................................................................ (Click to expand)</summary>  
+            <summary>Histogram example............................................................................ (Click to expand)</summary>  
     
  * __Histogram__
  
