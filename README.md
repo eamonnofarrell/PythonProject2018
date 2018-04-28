@@ -5,7 +5,7 @@
 <img align="right" src="Sepetal.jpg" width="200" height="200">
 
 - [Introduction](#introduction)
-- [Data_Analysis](#data_analysis)
+- [Data Analysis](#data_analysis)
 - [Visualise Results](#visualise_results)
 - [User Guide - Running Python Code](#user_guide)
 - [Research - Interesting Analysis from other sources](#research)
