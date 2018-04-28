@@ -218,7 +218,7 @@ dataset = pandas.read_csv(url, names=names)
   </p>
    </details>   
  <details>
-            <summary>Scatter Plot Diagram (Click to expand)</summary>  
+            <summary>Histogram (Click to expand)</summary>  
     
  * __Histogram__
  
@@ -255,7 +255,7 @@ plt.show()
  
    <p align="center">
     
-  <img  src="/PNG/Scatter_Plot.png" alt="Scatter Plot" width="400" height="400"  />
+  <img  src="/PNG/Scatter_Plot.png" alt="Scatter Plot" width="600" height="600"  />
   
   </p>
     
@@ -266,8 +266,72 @@ plt.show()
     <b><a href="#table_of_contents">↥ back to top</a></b>
 </div>
 <br/>
-</details>   
+</details>  
+
+<details>
+            <summary>Interesting Research on Scatter Plot Diagram (Click to expand)</summary>  
     
+ * __Scatter Plot Diagram__
+    
+  ```
+# Load the data
+from sklearn.datasets import load_iris
+iris = load_iris()
+
+from matplotlib import pyplot as plt
+
+# The indices of the features that we are plotting
+x_index = 0
+y_index = 1
+
+# this formatter will label the colorbar with the correct target names
+formatter = plt.FuncFormatter(lambda i, *args: iris.target_names[int(i)])
+
+plt.figure(figsize=(5, 4))
+plt.scatter(iris.data[:, x_index], iris.data[:, y_index], c=iris.target)
+plt.colorbar(ticks=[0, 1, 2], format=formatter)
+plt.xlabel(iris.feature_names[x_index])
+plt.ylabel(iris.feature_names[y_index])
+
+plt.tight_layout()
+plt.show()
+```
+<p align="center">
+    
+  <img  src="/PNG/ScatterBest1.png" alt="Scatter Plot" width="400" height="400"  />
+  
+  </p> 
+
+```
+# The indices of the features that we are plotting
+x_index = 2
+y_index = 3
+
+# this formatter will label the colorbar with the correct target names
+formatter = plt.FuncFormatter(lambda i, *args: iris.target_names[int(i)])
+
+plt.figure(figsize=(5, 4))
+plt.scatter(iris.data[:, x_index], iris.data[:, y_index], c=iris.target)
+plt.colorbar(ticks=[0, 1, 2], format=formatter)
+plt.xlabel(iris.feature_names[x_index])
+plt.ylabel(iris.feature_names[y_index])
+
+plt.tight_layout()
+plt.show()
+
+ ```
+ <p align="center">
+    
+  <img  src="/PNG/ScatterBest2.png" alt="Scatter Plot" width="400" height="400"  />
+  
+  </p> 
+ </details>  
+ 
+ <br/>
+<div align="right">
+    <b><a href="#table_of_contents">↥ back to top</a></b>
+</div>
+<br/>
  ***
     
 
