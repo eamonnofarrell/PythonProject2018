@@ -216,7 +216,8 @@ IrisData = pandas.read_csv(url, names=names)
   <img  src="box_plot.png" alt="Box Plot" width="400" height="400"  />
   
   </p>
-   </details>   
+   </details>  
+   
  <details>
             <summary>Histogram example.............................................................. (Click to expand)</summary>  
     
@@ -246,9 +247,10 @@ plt.show()
  ```
  <p align="center">
     
-  <img  src="/PNG/Histograms.png" alt="Scatter Plot" width="400" height="400"  />
+  <img  src="/PNG/Histsepal.png" alt="Scatter Plot" width="400" height="400"  />
   
   </p> 
+  
   </details>  
   
  <details>
