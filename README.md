@@ -241,7 +241,8 @@ plt.show()
  <details>
             <summary>Scatter Plot Diagram (Click to expand)</summary>  
     
- * __Scatter Plot Diagram__
+ * __Scatter Plot Diagram__: A scatter plot diagram is a mathematical diagram which displayes values (typically 2 variables) for a set of data. The first diagram uses the *scatter_matrix* method from Pandas and plots the data from the four columns.  
+ 
  
  
     
@@ -271,7 +272,7 @@ plt.show()
 <details>
             <summary>Interesting Research on Scatter Plot Diagram (Click to expand)</summary>  
     
- * __Scatter Plot Diagram__
+ * __Scatter Plot Diagram__: I found the following code while researching scatter plot diagrams. This is a very interesting way of visualising two dimensional scatter plot diagrams because a third dimension/colour can be added to show the class of flower. 
     
   ```
 # Load the data
@@ -430,7 +431,7 @@ plt.show()
     [3] Data Analysis https://machinelearningmastery.com/quick-and-dirty-data-analysis-with-pandas/
     [4] Box and Whisker plots https://datavizcatalogue.com/methods/box_plot.html
     [5] Data Visualisation https://en.wikipedia.org/wiki/Data_visualization
-    [6] Scatter Plot 
+    [6] Scatter Plot Research http://www.scipy-lectures.org/packages/scikit-learn/auto_examples/plot_iris_scatter.html
     [7] Research - Supervised Learning http://scikit-learn.org/stable/tutorial/statistical_inference/supervised_learning.html
     [8] Supervised learning https://en.wikipedia.org/wiki/Supervised_learning
     [9] Machine Learning Nearest Neighbour https://towardsdatascience.com/learning-machine-learning-petals-32c68673d8fc
