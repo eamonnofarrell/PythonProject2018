@@ -42,7 +42,7 @@ Iris Virginica &nbsp;&nbsp;&nbsp;&nbsp;  &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&n
 * The fifth attribute *'class'* gives us the flower name associated with petal and sepal data.
 
 <details>
-            <summary>__Dataset example with code extract (Click to expand)__</summary>
+            <summary>__Dataset example with code extract__ (Click to expand)</summary>
 
 ```
 url = "iris.csv"
