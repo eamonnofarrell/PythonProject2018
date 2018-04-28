@@ -388,7 +388,9 @@ plt.show()
  
  <details>
             <summary>Additional research - Data Analysis Algorithms............................. (Click to expand)</summary>
+    
 * I found the __kNN algorithm__ intuitive, interesting and easy to use and understand. KNN falls in the supervised learning family of algorithms. It is a non parametric, instance-based learning algorithm. [12] 
+
     - Non-parametric means it makes no explicit assumptions about the functional form of h, avoiding the dangers of mismodeling the underlying distribution of the data. For example, suppose our data is highly non-Gaussian but the learning model we choose assumes a Gaussian form. In that case, our algorithm would make extremely poor predictions. [12]
     - Instance-based learning means that our algorithm doesn’t explicitly learn a model. Instead, it chooses to memorize the training instances which are subsequently used as “knowledge” for the prediction phase. Concretely, this means that only when a query to our database is made (i.e. when we ask it to predict a label given an input), will the algorithm use the training instances to spit out an answer. [12]
     
