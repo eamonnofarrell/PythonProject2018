@@ -238,7 +238,7 @@ plt.show()
   </p> 
    
   
-  * The second Histogram is based on a filtered version of the first diagram. The code *.hist(column='sepal-length')* allows us to filter on data from a single column. This makes the reading of the Histogram more accurate. 
+  * The second Histogram is based on a filtered version of the first diagram. The code *.hist(column='sepal-length')* allows us to filter on data from a single column. This makes the reading of the Histogram easier and allows greater attention to detail.  
 
  ```
   # Use .hist() to filter sepal-length column and plot histogram 
