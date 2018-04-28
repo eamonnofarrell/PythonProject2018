@@ -143,7 +143,7 @@ print("Mean Petal Width: "),(round(dataset['petal-width'].mean()))
 
 
 <details>
-            <summary>Box Plot 1 - each column is represented..................(Click to expand)</summary>
+            <summary>Box Plot 1 - each column is represented................(Click to expand)</summary>
     
     * The first diagram is a representation of the Iris data set in Box Plot form. 
     * Pandas function [dataset.boxplot()](http://pandas.pydata.org/pandas-docs/version/0.17.0/generated/pandas.DataFrame.boxplot.html) gives us four box plots on a single graph. 
@@ -176,7 +176,7 @@ plt.show()
  
  </details> 
  <details>
-            <summary>Box Plot 2 - sepal length per flower type............................(Click to expand)</summary>
+            <summary>Box Plot 2 - sepal length per flower type...........................................(Click to expand)</summary>
     
     * The second Box Plot filters sepal length data * dataset.boxplot(column="sepal-length",by="class")* and is visualised per flower classification. 
         - There is a 1.5 variance in mean values between iris-setosa and iris-virginica
@@ -204,7 +204,7 @@ dataset = pandas.read_csv(url, names=names)
  </details>    
  
  <details>
-            <summary>What is a Box Plot?........................................ (Click to expand)</summary>
+            <summary>What is a Box Plot?........................................................ (Click to expand)</summary>
     
 > A Box and Whisker Plot (or Box Plot) is a convenient way of visually displaying the data distribution through their quartiles.The lines extending parallel from the boxes are known as the “whiskers”, which are used to indicate variability outside the upper and lower quartiles. Outliers are sometimes plotted as individual dots that are in-line with whiskers [4]. 
 >>Although Box Plots may seem primitive in comparison to a Histogram or Density Plot, they have the advantage of taking up less space, which is useful when comparing distributions between many groups or datasets.
@@ -218,7 +218,7 @@ dataset = pandas.read_csv(url, names=names)
   </p>
    </details>   
  <details>
-            <summary>Histogram......................................................... (Click to expand)</summary>  
+            <summary>Histogram............................................................................ (Click to expand)</summary>  
     
  * __Histogram__
  
