@@ -233,7 +233,7 @@ plt.show()
  
    <p align="center">
     
-  <img  src="/PNG/Histogram1.png" alt="Scatter Plot" width="400" height="400"  />
+  <img  src="/PNG/Histogram1.png" alt="Histogram Plot" width="400" height="400"  />
   
   </p> 
    
@@ -247,7 +247,7 @@ plt.show()
  ```
  <p align="center">
     
-  <img  src="/PNG/Histsepal.png" alt="Scatter Plot" width="400" height="400"  />
+  <img  src="/PNG/HistSepal.png" alt="Histogram2 Plot" width="400" height="400"  />
   
   </p> 
   
