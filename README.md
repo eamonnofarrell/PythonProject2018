@@ -220,15 +220,13 @@ dataset = pandas.read_csv(url, names=names)
  <details>
             <summary>Histogram example.............................................................. (Click to expand)</summary>  
     
- * __Histogram__
+ * __Histogram__ The Histogram is used primarily in statistics to evaluate the distribution of the data. 
  
- 
-    
+     
 ```    
 # Use Pandas histograms .hist() to plot standard histogram of Iris Data Set
 DataFrame.hist()
 plt.show()
-
     
  ```
  
@@ -238,6 +236,19 @@ plt.show()
   
   </p> 
   </details>  
+
+ ```
+  # Use .hist() to filter sepal-length column and plot histogram 
+IrisData.hist(column='sepal-length')
+plt.show()
+ ```
+ <p align="center">
+    
+  <img  src="/PNG/Histograms.png" alt="Scatter Plot" width="400" height="400"  />
+  
+  </p> 
+  </details>  
+  
  <details>
             <summary>Scatter Plot Diagram....................................................... (Click to expand)</summary>  
     
