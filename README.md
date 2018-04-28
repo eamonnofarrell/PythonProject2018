@@ -221,7 +221,7 @@ IrisData = pandas.read_csv(url, names=names)
  <details>
             <summary>Histogram example.............................................................. (Click to expand)</summary>  
     
- * __Histogram__ The Histogram is used primarily in statistics to evaluate the distribution of the data. The first piece of code allowsus to use *.hist* to plot a stndard histogram diagram based on the four columns of data - Sepal width and length, petal width and length.  
+ *  __Histogram__ The Histogram is used primarily in statistics to evaluate the distribution of the data. The first piece of code allowsus to use *.hist* to plot a stndard histogram diagram based on the four columns of data - Sepal width and length, petal width and length.  
  
      
 ```    
@@ -236,7 +236,7 @@ plt.show()
   <img  src="/PNG/Histogram1.png" alt="Scatter Plot" width="400" height="400"  />
   
   </p> 
-  </details>  
+   
   
   * The second Histogram is based on a filtered version of the first diagram. The code *.hist(column='sepal-length')* allows us to filter on data from a single column. This makes the reading of the Histogram more accurate. 
 
