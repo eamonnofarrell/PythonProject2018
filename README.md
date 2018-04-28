@@ -305,6 +305,7 @@ plt.show()
   
   </p> 
 * The second extract from code loads data from sklearn.datasets. x_index takes data from column 3 and y_index takes data from column 4 (petal length and petal width).
+
 ```
 # The indices of the features that we are plotting
 x_index = 2
