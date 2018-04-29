@@ -2,7 +2,7 @@
 
 
 ##  Table_of_Contents
-<img align="right" src="Sepetal.jpg" width="200" height="200">
+<img align="right" src="/JPG/Sepetal.jpg" width="200" height="200">
 
 - [Introduction](#introduction)
 - [Data Analysis](#data_analysis)
@@ -26,11 +26,11 @@ Iris Virginica &nbsp;&nbsp;&nbsp;&nbsp;  &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&n
 
 <p align="center">
     
-  <img src="iris_versicolor.png" alt="Iris Versicolor" width="200" height="200"  />
+  <img src="/PNG/iris_versicolor.png" alt="Iris Versicolor" width="200" height="200"  />
   
-  <img  src="Iris_virginica.jpg" alt="Iris Virginica" width="200" height="200"  />
+  <img  src="/PNG/Iris_virginica.jpg" alt="Iris Virginica" width="200" height="200"  />
 
-  <img  src="Iris_setosa.jpg" alt="Iris Setosa" width="200" height="200"  />
+  <img  src="/PNG/Iris_setosa.jpg" alt="Iris Setosa" width="200" height="200"  />
   
   </p>
   
@@ -52,7 +52,7 @@ IrisData = pandas.read_csv(url, names=names)
    ```
    <p align="center">
     
-  <img  src="Data.PNG" alt="Iris Data" width="500" height="500"  />
+  <img  src="/PNG/Data.PNG" alt="Iris Data" width="500" height="500"  />
   
   </p>
  </details>
@@ -101,7 +101,7 @@ print("Mean Petal Width: "),(round(dataset['petal-width'].mean()))
   
  <p align="center">
     
-  <img  src="MaxMinMean.PNG" alt="MaxMinMean" width="300" height="300"  />
+  <img  src="/PNG/MaxMinMean.PNG" alt="MaxMinMean" width="300" height="300"  />
   
   </p>
   
@@ -121,7 +121,7 @@ print("Mean Petal Width: "),(round(dataset['petal-width'].mean()))
 
  <p align="center">
     
-  <img  src="Description.PNG" alt="MaxMinMean" width="400" height="300"  />
+  <img  src="/PNG/Description.PNG" alt="MaxMinMean" width="400" height="300"  />
   
  </p>
  
@@ -171,7 +171,7 @@ plt.show()
  
  <p align="center">
     
-  <img  src="BoxPlot1.png" alt="BoxPlot1" width="400" height="400"  />
+  <img  src="/PNG/BoxPlot1.png" alt="BoxPlot1" width="400" height="400"  />
   
  </p>
  
@@ -198,7 +198,7 @@ IrisData = pandas.read_csv(url, names=names)
     
   <p align="center">
     
-  <img  src="Boxplot_Sepalength_Byclass.png" alt="BoxPlot_Sepalength" width="400" height="400"  />
+  <img  src="/PNG/Boxplot_Sepalength_Byclass.png" alt="BoxPlot_Sepalength" width="400" height="400"  />
   
  </p>
     
@@ -214,7 +214,7 @@ IrisData = pandas.read_csv(url, names=names)
   
   <p align="center">
     
-  <img  src="box_plot.png" alt="Box Plot" width="400" height="400"  />
+  <img  src="/PNG/box_plot.png" alt="Box Plot" width="400" height="400"  />
   
   </p>
    </details>  
