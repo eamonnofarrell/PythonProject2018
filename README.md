@@ -389,7 +389,7 @@ plt.show()
   <img  src="/PNG/Data_Out.PNG" alt="Data Out" width="400" height="400"  />
   
   </p>
-  7. 
+  
     
 
 
