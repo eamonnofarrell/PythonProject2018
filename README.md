@@ -28,9 +28,9 @@ Iris Virginica &nbsp;&nbsp;&nbsp;&nbsp;  &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&n
     
   <img src="/PNG/iris_versicolor.png" alt="Iris Versicolor" width="200" height="200"  />
   
-  <img  src="/PNG/Iris_virginica.jpg" alt="Iris Virginica" width="200" height="200"  />
+  <img  src="/JPG/Iris_virginica.jpg" alt="Iris Virginica" width="200" height="200"  />
 
-  <img  src="/PNG/Iris_setosa.jpg" alt="Iris Setosa" width="200" height="200"  />
+  <img  src="/JPG/Iris_setosa.jpg" alt="Iris Setosa" width="200" height="200"  />
   
   </p>
   
